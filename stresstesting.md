@@ -19,6 +19,8 @@ apt install curl
 curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "system_health", "params":[]}' http://localhost:9933
 ```
 - Son 18 numaralı kodla curl u yükleyip, 19 numaralı kodla node muzun sync olup olamadığını kontrol ediyoruz. 'isSyncing' kısmı false olduğunda node muz sisteme sync olmuş demektir.
+
+# Eğer Telemetry'de İsminiz Çıkmıyorsa Şu İşlemleri Yapın
 - Senkronize olduktan sonra şu işlemleri yapıyoruz.
 ```
 nano /etc/systemd/system/subspace-node.service
@@ -37,4 +39,4 @@ systemctl restart subspace-node
 - Son olarak aşağıdaki siteye giderek ve cüzdanımıza izin vererek blok imzaladıkça kazandığınımız ödülü görebiliriz.
      - https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Ffarm-rpc.subspace.network#/accounts
 - Bütün adımların uygulanışını görmek için şu videoyu izleyebilirsiniz.
-     -   
+     - https://youtu.be/1V1Ykay5t8E  
