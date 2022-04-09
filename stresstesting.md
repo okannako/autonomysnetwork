@@ -32,6 +32,8 @@ nano /etc/systemd/system/subspace-node.service
 systemctl daemon-reload
 systemctl restart subspace-node
 ```
+- Başlatma işlemini yaptıktan sonra şu sitede isminizin bir süre sonra görünmesi gerekiyor.
+     - https://telemetry.subspace.network/#/0x332ef6e751e25426e38996c51299dfc53bcd56f40b53dce2b2fc8442ae9c4a74 
 - Son olarak aşağıdaki siteye giderek ve cüzdanımıza izin vererek blok imzaladıkça kazandığınımız ödülü görebiliriz.
      - https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Ffarm-rpc.subspace.network#/accounts
 - Bütün adımların uygulanışını izlemek için şu videoyu izleyebilirsiniz.
