@@ -36,5 +36,5 @@ systemctl restart subspace-node
      - https://telemetry.subspace.network/#/0x332ef6e751e25426e38996c51299dfc53bcd56f40b53dce2b2fc8442ae9c4a74 
 - Son olarak aşağıdaki siteye giderek ve cüzdanımıza izin vererek blok imzaladıkça kazandığınımız ödülü görebiliriz.
      - https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Ffarm-rpc.subspace.network#/accounts
-- Bütün adımların uygulanışını izlemek için şu videoyu izleyebilirsiniz.
+- Bütün adımların uygulanışını görmek için şu videoyu izleyebilirsiniz.
      -   
