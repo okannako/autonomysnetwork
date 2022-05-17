@@ -18,7 +18,7 @@ wget -q -O subspace.sh https://api.zvalid.com/subspace.sh &&  chmod +x subspace.
 apt install curl
 curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "system_health", "params":[]}' http://localhost:9933
 ```
-- Son 18 numaralı kodla curl u yükleyip, 19 numaralı kodla node muzun sync olup olamadığını kontrol ediyoruz. 'isSyncing' kısmı false olduğunda node muz sisteme sync olmuş demektir.
+- Curl u yükleyip, "curl -H "Content-Type...." başlayan kodla node muzun sync olup olamadığını kontrol ediyoruz. 'isSyncing' kısmı false olduğunda node muz sisteme sync olmuş demektir.
 
 # Eğer Telemetry'de İsminiz Çıkmıyorsa Şu İşlemleri Yapın
 - Senkronize olduktan sonra şu işlemleri yapıyoruz.
