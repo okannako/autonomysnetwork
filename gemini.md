@@ -51,4 +51,4 @@ systemctl restart subspace-node
 - Son olarak aşağıdaki siteye giderek ve cüzdanımıza izin vererek blok imzaladıkça kazandığınımız ödülü görebiliriz.
      - https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Ffarm-rpc.subspace.network#/accounts
 - Bütün adımların uygulanışını görmek için şu videoyu izleyebilirsiniz.
-     - https://youtu.be/1V1Ykay5t8E
+     - https://www.youtube.com/watch?v=F1hSXOj44tI
