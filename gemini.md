@@ -12,7 +12,8 @@
 ```
 timedatectl | grep "System clock"
 ```
--Bu kodun çıktısı şöyle olmalı ``System clock synchronized: yes``
+-Bu kodun çıktısı şöyle olmalı ``System clock synchronized: yes`` 
+
 -Eğer çıktıyı böyle vermezse aşağıdaki kodları girip tekrar kontrol ediyorsunuz.
 
 ```
