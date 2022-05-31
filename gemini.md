@@ -46,6 +46,19 @@ nano /etc/systemd/system/subspace-node.service
 systemctl daemon-reload
 systemctl restart subspace-node
 ```
+
+### Node Silmek
+
+```
+sudo systemctl stop subspace-node.service
+sudo systemctl stop subspace-farmer.service
+sudo systemctl disable subspace-farmer.service
+rm -rf ~/.local/share/subspace*
+rm -rf /etc/systemd/system/subspaced*
+rm -rf /usr/local/bin/subspace*
+```
+
+
 - Başlatma işlemini yaptıktan sonra şu sitede isminizin bir süre sonra görünmesi gerekiyor.
      - https://telemetry.subspace.network/#list/0x8e975582755f7fd4c125e64a51bafadca9dfaf18b0183ac19bc589d36d44aeed 
 - Son olarak aşağıdaki siteye giderek ve cüzdanımıza izin vererek blok imzaladıkça kazandığınımız ödülü görebiliriz.
