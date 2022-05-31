@@ -45,12 +45,12 @@ fi
 echo "=================================================="
 
 echo -e "\e[1m\e[32m3. Downloading subspace node binary... \e[0m" && sleep 1
-sudo wget https://github.com/subspace/subspace/releases/download/gemini-1a-2022-may-31/subspace-node-ubuntu-x86_64-gemini-1a-2022-may-31
+wget https://github.com/subspace/subspace/releases/download/gemini-1a-2022-may-31/subspace-node-ubuntu-x86_64-gemini-1a-2022-may-31
 
 echo "=================================================="
 
 echo -e "\e[1m\e[32m4. Downloading subspace farmer binary... \e[0m" && sleep 1
-sudo wget https://github.com/subspace/subspace/releases/download/gemini-1a-2022-may-31/subspace-farmer-ubuntu-x86_64-gemini-1a-2022-may-31
+wget https://github.com/subspace/subspace/releases/download/gemini-1a-2022-may-31/subspace-farmer-ubuntu-x86_64-gemini-1a-2022-may-31
 
 echo "=================================================="
 
