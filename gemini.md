@@ -1,10 +1,10 @@
-# Tavsiye Edilen Sistem Gereksinimleri
+## Tavsiye Edilen Sistem Gereksinimleri
 - CPU: 2 ÇEKİRDEK
 - RAM: 2 GB
 - SSD: 80 GB
 - İşletim Sistemi: Ubuntu 20.04LTS
 
-# Kurulum Adımları ve Kodları
+## Kurulum Adımları ve Kodları
 - Önce https://polkadot.js.org/extension/ sitesinden cüzdan kurulumu yapıp cüzdan oluşturuyoruz ve bize verdiği gizli kelimeleri kesinlikle saklıyoruz. Ayrıca .json dosyasını da indirip yedeklemeyi unutmayın.
 - Daha sonra aşağıdaki kodlarla adım adım yükleme işlemine geçiyoruz.Script ile kurulum kısa bir zamanda tamamlanıyor o yüzden yükleme adımı için onu kullanıyoruz.
 - Script ZVALID e aittir. Yeni kod yayınlamadı ve kendisine ulaşamadım. Eğer yayınlarsa o kodu alacağım buraya. Ben de eskisini yeni versiyona göre uyarlayıp githubıma yükledim. Kendisine teşekkür ederim.
@@ -32,7 +32,7 @@ curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method":
 ```
 - Curl u yükleyip, "curl -H "Content-Type...." başlayan kodla node muzun sync olup olamadığını kontrol ediyoruz. 'isSyncing' kısmı false olduğunda node muz sisteme sync olmuş demektir.
 
-# Eğer Telemetry'de İsminiz Çıkmıyorsa Şu İşlemleri Yapın
+## Eğer Telemetry'de İsminiz Çıkmıyorsa Şu İşlemleri Yapın
 - Senkronize olduktan sonra şu işlemleri yapıyoruz.
 ```
 nano /etc/systemd/system/subspace-node.service
@@ -47,7 +47,7 @@ systemctl daemon-reload
 systemctl restart subspace-node
 ```
 
-### Node Silmek
+## Node Silmek
 
 ```
 sudo systemctl stop subspace-node.service
