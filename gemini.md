@@ -47,7 +47,7 @@ nano /etc/systemd/system/subspace-node.service
 systemctl daemon-reload
 systemctl restart subspace-node
 ```
-- ``No journal files were found`` hatasını çözmek için aşağıdaki kodu girip, daha sonra log kontrol kodunu giriyorsunuz 
+- ``No journal files were found`` hatasını çözmek için aşağıdaki kodu girip, daha sonra log kontrol kodunu giriyorsunuz. 
 
 ```
 sudo systemctl restart systemd-journald
