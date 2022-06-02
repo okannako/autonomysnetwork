@@ -60,7 +60,7 @@ rm -rf /usr/local/bin/subspace*
 
 
 - Başlatma işlemini yaptıktan sonra şu sitede isminizin bir süre sonra görünmesi gerekiyor.
-     - https://telemetry.subspace.network/#list/0x8e975582755f7fd4c125e64a51bafadca9dfaf18b0183ac19bc589d36d44aeed 
+     - https://telemetry.subspace.network/#list/0x9ee86eefc3cc61c71a7751bba7f25e442da2512f408e6286153b3ccc055dccf0
 - Son olarak aşağıdaki siteye giderek ve cüzdanımıza izin vererek blok imzaladıkça kazandığınımız ödülü görebiliriz.
      - https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Ffarm-rpc.subspace.network#/accounts
 - Bütün adımların uygulanışını görmek için şu videoyu izleyebilirsiniz.
