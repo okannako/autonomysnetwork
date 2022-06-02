@@ -40,7 +40,7 @@ if [[ $response =~ ^(yes|y| ) ]] || [[ -z $response ]]; then
     sudo systemctl stop subspace-farmer.service
     sudo systemctl stop subspace-node.service
     subspace-farmer wipe
-    subspace-node purge-chain -y --chain testnet
+    subspace-node purge-chain --chain gemini-1
 fi
 echo "=================================================="
 
