@@ -20,6 +20,7 @@ timedatectl | grep "System clock"
 apt install ntp
 ntpq -p
 ``` 
+-Kurulumu aşağıdaki kodlarla başlatıyoruz.
 ```
 sudo apt update
 wget -q -O subspace.sh https://raw.githubusercontent.com/okannako/subspacenetwork/main/subspace.sh && chmod +x subspace.sh && sudo /bin/bash subspace.sh
