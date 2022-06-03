@@ -39,7 +39,6 @@ curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method":
 ```
 sudo systemctl restart systemd-journald
 ```
-
 ## Node Silmek
 
 ```
