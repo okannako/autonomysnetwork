@@ -33,20 +33,7 @@ curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method":
 ```
 - Curl u yükleyip, "curl -H "Content-Type...." başlayan kodla node muzun sync olup olamadığını kontrol ediyoruz. 'isSyncing' kısmı false olduğunda node muz sisteme sync olmuş demektir.
 
-## Eğer Telemetry'de İsminiz Çıkmıyorsa Şu İşlemleri Yapın
-- Senkronize olduktan sonra şu işlemleri yapıyoruz.
-```
-nano /etc/systemd/system/subspace-node.service
-```
-- Bu kodu girerek açılan ekranda 'execstart' ın olduğu satırın sonuna şu kodu ekliyoruz
- ```
- --telemetry-url "wss://telemetry.subspace.network/submit 1"
- ```
- - Bu değişikliği yaptıktan sonra şu iki kodla node u tekrar başlatın.
- ```
-systemctl daemon-reload
-systemctl restart subspace-node
-```
+
 - ``No journal files were found`` hatasını çözmek için aşağıdaki kodu girip, daha sonra log kontrol kodunu giriyorsunuz. 
 
 ```
