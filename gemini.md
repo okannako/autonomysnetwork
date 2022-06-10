@@ -3,7 +3,7 @@
 - RAM: 4+ GB (Önerilen 8)
 - SSD: 100 GB
 - İşletim Sistemi: Ubuntu 20.04LTS
-- Not: Yeni gelen güncellemelerle birlikte scriptte plot değeri girerken hdd toplam boyutunuzun 60-70G altını girmenizi öneririm. İşletim sistemi ve ek dosyalar olduğu için node hdd yi full doldurabiliyor. Bu değer benim kişisel tercihim, son karar sizin.
+- Not: Yeni gelen güncellemelerle birlikte scriptte plot değeri girerken hdd toplam boyutunuzun 70G altını girmenizi öneririm. İşletim sistemi ve ek dosyalar olduğu için node hdd yi full doldurabiliyor. Bu değer benim kişisel tercihim, son karar sizin.
 
 ## Kurulum Adımları ve Kodları
 - Önce https://polkadot.js.org/extension/ sitesinden cüzdan kurulumu yapıp cüzdan oluşturuyoruz ve bize verdiği gizli kelimeleri kesinlikle saklıyoruz. Ayrıca .json dosyasını da indirip yedeklemeyi unutmayın.
