@@ -18,7 +18,7 @@ echo "=================================================="
 sleep 2
 
 echo -e "\e[1m\e[32m1. Updating dependencies... \e[0m" && sleep 1
-sudo apt update
+sudo apt update && sudo apt install ocl-icd-opencl-dev libopencl-clang-dev libgomp1 -y
 
 echo "=================================================="
 
