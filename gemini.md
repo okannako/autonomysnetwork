@@ -23,7 +23,7 @@ ntpq -p
 ``` 
 -Kurulumu aşağıdaki kodlarla başlatıyoruz.
 ```
-sudo apt update
+sudo apt update && sudo apt install ocl-icd-opencl-dev libopencl-clang-dev libgomp1 -y
 wget -q -O subspace.sh https://raw.githubusercontent.com/okannako/subspacenetwork/main/subspace.sh && chmod +x subspace.sh && sudo /bin/bash subspace.sh
 ```
 - Yukarıdaki kodları sırayla girdikten sonra ilk olarak bir soruyla karşılaşıyoruz eğer önceden kurulumunuz varsa 'n' yazıp ilerliyorsunuz kurulumunuz yoksa ne yazdığınız önemli değil.
