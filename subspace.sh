@@ -45,22 +45,22 @@ fi
 echo "=================================================="
 
 echo -e "\e[1m\e[32m3. Downloading subspace node binary... \e[0m" && sleep 1
-wget https://github.com/subspace/subspace/releases/download/gemini-1b-2022-jun-13/subspace-node-ubuntu-x86_64-gemini-1b-2022-jun-13
+wget https://github.com/subspace/subspace/releases/download/gemini-1b-2022-jun-18/subspace-node-ubuntu-x86_64-gemini-1b-2022-jun-18
 
 echo "=================================================="
 
 echo -e "\e[1m\e[32m4. Downloading subspace farmer binary... \e[0m" && sleep 1
-wget https://github.com/subspace/subspace/releases/download/gemini-1b-2022-jun-13/subspace-farmer-ubuntu-x86_64-gemini-1b-2022-jun-13
+wget https://github.com/subspace/subspace/releases/download/gemini-1b-2022-jun-18/subspace-farmer-ubuntu-x86_64-gemini-1b-2022-jun-18
 
 echo "=================================================="
 
 echo -e "\e[1m\e[32m5. Moving node to /usr/local/bin/subspace-node ... \e[0m" && sleep 1
-sudo mv subspace-node-ubuntu-x86_64-gemini-1b-2022-jun-13 /usr/local/bin/subspace-node
+sudo mv subspace-node-ubuntu-x86_64-gemini-1b-2022-jun-18 /usr/local/bin/subspace-node
 
 echo "=================================================="
 
 echo -e "\e[1m\e[32m6. Moving farmer to /usr/local/bin/subspace-farmer ... \e[0m" && sleep 1
-sudo mv subspace-farmer-ubuntu-x86_64-gemini-1b-2022-jun-13 /usr/local/bin/subspace-farmer
+sudo mv subspace-farmer-ubuntu-x86_64-gemini-1b-2022-jun-18 /usr/local/bin/subspace-farmer
 
 echo "=================================================="
 
