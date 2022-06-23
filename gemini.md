@@ -1,5 +1,5 @@
 ## Tavsiye Edilen Sistem Gereksinimleri
-- CPU: 2 ÇEKİRDEK
+- CPU: 4 ÇEKİRDEK
 - RAM: 4+ GB (Önerilen 8)
 - SSD: 100 GB
 - İşletim Sistemi: Ubuntu 20.04LTS
