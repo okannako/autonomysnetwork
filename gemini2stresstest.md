@@ -11,7 +11,7 @@
 
 -Kurulumu aşağıdaki kodlarla başlatıyoruz.
 ```
-wget -q -O subspace.sh https://raw.githubusercontent.com/okannako/subspacenetwork/main/stresstest2.sh && chmod +x stresstest2.sh && sudo /bin/bash stresstest2.sh
+wget -q -O stresstest2.sh https://raw.githubusercontent.com/okannako/subspacenetwork/main/stresstest2.sh && chmod +x stresstest2.sh && sudo /bin/bash stresstest2.sh
 ```
 - Yukarıdaki kodları sırayla girdikten sonra ilk olarak bir soruyla karşılaşıyoruz eğer önceden kurulumunuz varsa 'n' yazıp ilerliyorsunuz kurulumunuz yoksa ne yazdığınız önemli değil.
 - Daha sonra polkadot cüzdan ile oluşturduğunuz cüzdanınızın adresi sonra node nuza vermek istediğiniz ismi girdikten sonra gelen soruya 'y' diyerek devam ediyoruz ve kurulumu bitiriyoruz ve bize verdiği node kontrol kodlarını bir yere kopyalıyoruzi ilerde kontrol için kullanacağız.
