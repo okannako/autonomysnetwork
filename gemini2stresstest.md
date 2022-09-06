@@ -38,4 +38,4 @@ rm -rf /usr/local/bin/subspace*
 - Son olarak aşağıdaki siteye giderek ve cüzdanımıza izin vererek blok imzaladıkça kazandığınımız ödülü görebiliriz.
      - https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Feu-1.gemini-2a.subspace.network%2Fws#/accounts
 - Bütün adımların uygulanışını görmek için şu videoyu izleyebilirsiniz.
-     - https://www.youtube.com/watch?v=F1hSXOj44tI
+     - https://youtu.be/vQ3o2993w50
