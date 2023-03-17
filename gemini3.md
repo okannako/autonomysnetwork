@@ -21,7 +21,7 @@ wget -q -O gemini3.sh https://raw.githubusercontent.com/okannako/subspacenetwork
  ```
 - Sayfayı açtıktan sonra ilk olarak ayarlarımızı yapmak için alttaki kodu çalıştırıyoruz.
 ```
-./subspace-cli-ubuntu-x86_64-v0.1.8-alpha init
+./subspace-cli-ubuntu-x86_64-v0.1.9-alpha init
 ```
    -Burada sırayla bize sorduğu sorulara şu cevapları veriyoruz.
     1-) Cüzdan adresimizi soruyor, subspace adresimizi giriyoruz.
