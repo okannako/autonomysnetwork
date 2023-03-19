@@ -36,7 +36,42 @@ wget -q -O gemini3.sh https://raw.githubusercontent.com/okannako/subspacenetwork
 ./subspace-cli-ubuntu-x86_64-v0.1.9-alpha farm
 ```
 
+## Servisle Çalıştırmak (İsteğe Bağlı)
+ - Aşağıdaki kodu tek kod şeklinde girerek servis dosyası oluşturabilir daha sonraki kodlarıda başlatıp loglardan izleyebilirsiniz.
+```
+sudo tee <<EOF >/dev/null /etc/systemd/system/subspaced.service
+[Unit]
+Description=Subspaced Farmer
+After=network-online.target
+
+[Service]
+User=root
+ExecStart=/root/subspace-cli-ubuntu-x86_64-v0.1.9-alpha farm --verbose
+Restart=on-failure
+RestartSec=3
+LimitNOFILE=4096
+
+[Install]
+WantedBy=multi-user.target
+EOF
+```
+```
+sudo systemctl daemon-reload
+sudo systemctl restart subspaced
+```
+```
+sudo journalctl -u subspaced -f --no-hostname -o cat
+```
+
 - Bundan sonra Tmux ekranını direkt kapatabilirsiniz ya da arkaya atmak için ```ctri+b d``` kombinasyonunu kullanabilirsiniz. Tekrar girmek içinse ```tmux attach -t subspace``` kodunu kullanabilirsiniz.
+
+## Güncelleme 1.9
+ - Güncelleme yaptıktan sonra ```init``` adımını tekrar yapmalısınız.
+```
+cd
+wget https://github.com/subspace/subspace-cli/releases/download/v0.1.9-alpha/subspace-cli-ubuntu-x86_64-v0.1.9-alpha
+chmod +x subspace-cli-ubuntu-x86_64-v0.1.9-alpha
+```
  
 ## Node Silmek
  -Node silmek için tmux ekranında ```ctrl+c``` yaptıktan sonra aşağıdaki kodları girmeniz yeterli
@@ -47,7 +82,8 @@ rm -rf /etc/systemd/system/subspaced*
 rm -rf /usr/local/bin/subspace*
 ```
 
-
+- Son olarak aşağıdaki siteye giderek ve cüzdanımıza izin vererek blok imzaladıkça kazandığınımız ödülü görebiliriz.
+     - https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Feu-0.gemini-3c.subspace.network%2Fws#/explorer
 - Başlatma işlemini yaptıktan sonra şu sitede isminizin bir süre sonra görünmesi gerekiyor.
      - https://telemetry.subspace.network/#list/0xab946a15b37f59c5f4f27c5de93acde9fe67a28e0b724a43a30e4fe0e87246b7
 - Son olarak aşağıdaki siteye giderek ve cüzdanımıza izin vererek blok imzaladıkça kazandığınımız ödülü görebiliriz.
