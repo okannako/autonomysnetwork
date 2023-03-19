@@ -35,6 +35,7 @@ wget -q -O gemini3.sh https://raw.githubusercontent.com/okannako/subspacenetwork
 ```
 ./subspace-cli-ubuntu-x86_64-v0.1.9-alpha farm
 ```
+- Bundan sonra Tmux ekranını direkt kapatabilirsiniz ya da arkaya atmak için ```ctri+b d``` kombinasyonunu kullanabilirsiniz. Tekrar girmek içinse ```tmux attach -t subspace``` kodunu kullanabilirsiniz.
 
 ## Servisle Çalıştırmak (İsteğe Bağlı)
  - Aşağıdaki kodu tek kod şeklinde girerek servis dosyası oluşturabilir daha sonraki kodlarıda başlatıp loglardan izleyebilirsiniz.
@@ -62,8 +63,6 @@ sudo systemctl restart subspaced
 ```
 sudo journalctl -u subspaced -f --no-hostname -o cat
 ```
-
-- Bundan sonra Tmux ekranını direkt kapatabilirsiniz ya da arkaya atmak için ```ctri+b d``` kombinasyonunu kullanabilirsiniz. Tekrar girmek içinse ```tmux attach -t subspace``` kodunu kullanabilirsiniz.
 
 ## Güncelleme 1.9
  - Güncelleme yaptıktan sonra ```init``` adımını tekrar yapmalısınız.
