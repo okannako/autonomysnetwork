@@ -64,7 +64,7 @@ sudo systemctl restart subspaced
 sudo journalctl -u subspaced -f --no-hostname -o cat
 ```
 
-## Güncelleme 1.9
+## Güncelleme 0.1.10
  - Güncelleme yaptıktan sonra ```init``` adımını tekrar yapmalısınız.
 ```
 sudo systemctl stop subspaced
