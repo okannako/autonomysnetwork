@@ -67,6 +67,7 @@ sudo journalctl -u subspaced -f --no-hostname -o cat
 ## Güncelleme 1.9
  - Güncelleme yaptıktan sonra ```init``` adımını tekrar yapmalısınız.
 ```
+sudo systemctl stop subspaced
 cd
 wget https://github.com/subspace/subspace-cli/releases/download/v0.1.10-alpha/subspace-cli-ubuntu-x86_64-v3-v0.1.10-alpha
 chmod +x subspace-cli-ubuntu-x86_64-v3-v0.1.10-alpha
