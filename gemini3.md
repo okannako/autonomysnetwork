@@ -21,7 +21,7 @@ wget -q -O gemini3.sh https://raw.githubusercontent.com/okannako/subspacenetwork
  ```
 - Sayfayı açtıktan sonra ilk olarak ayarlarımızı yapmak için alttaki kodu çalıştırıyoruz.
 ```
-./subspace-cli-ubuntu-x86_64-v3-v0.1.10-alpha init
+./subspace-cli-ubuntu-x86_64-v3-v0.1.11-alpha init
 ```
    -Burada sırayla bize sorduğu sorulara şu cevapları veriyoruz.
     1-) Cüzdan adresimizi soruyor, subspace adresimizi giriyoruz.
@@ -33,7 +33,7 @@ wget -q -O gemini3.sh https://raw.githubusercontent.com/okannako/subspacenetwork
     
 - Şimdi aşağıdaki kodla da nodenumuzu başlatıyoruz. Bir süre sonra ```Node started successfully!``` uyarısı verecek ve sisteme eşitlenmeye başlayacak. Bu süre günlerde sürebilir.
 ```
-./subspace-cli-ubuntu-x86_64-v3-v0.1.10-alpha farm
+./subspace-cli-ubuntu-x86_64-v3-v0.1.11-alpha farm
 ```
 - Bundan sonra Tmux ekranını direkt kapatabilirsiniz ya da arkaya atmak için ```ctri+b d``` kombinasyonunu kullanabilirsiniz. Tekrar girmek içinse ```tmux attach -t subspace``` kodunu kullanabilirsiniz.
 
