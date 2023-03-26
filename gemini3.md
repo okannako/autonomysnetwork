@@ -71,6 +71,7 @@ sudo systemctl stop subspaced
 cd
 wget https://github.com/subspace/subspace-cli/releases/download/v0.1.11-alpha/subspace-cli-ubuntu-x86_64-v3-v0.1.11-alpha
 chmod +x subspace-cli-ubuntu-x86_64-v3-v0.1.11-alpha
+./subspace-cli-ubuntu-x86_64-v3-v0.1.10-alpha wipe
 ```
  
 ## Node Silmek
