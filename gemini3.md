@@ -47,7 +47,7 @@ After=network-online.target
 
 [Service]
 User=root
-ExecStart=/root/subspace-cli-ubuntu-x86_64-v3-v0.1.10-alpha farm --verbose
+ExecStart=/root/subspace-cli-ubuntu-x86_64-v3-v0.1.11-alpha farm --verbose
 Restart=on-failure
 RestartSec=3
 LimitNOFILE=4096
@@ -69,8 +69,8 @@ sudo journalctl -u subspaced -f --no-hostname -o cat
 ```
 sudo systemctl stop subspaced
 cd
-wget https://github.com/subspace/subspace-cli/releases/download/v0.1.10-alpha/subspace-cli-ubuntu-x86_64-v3-v0.1.10-alpha
-chmod +x subspace-cli-ubuntu-x86_64-v3-v0.1.10-alpha
+wget https://github.com/subspace/subspace-cli/releases/download/v0.1.11-alpha/subspace-cli-ubuntu-x86_64-v3-v0.1.10-alpha
+chmod +x subspace-cli-ubuntu-x86_64-v3-v0.1.11-alpha
 ```
  
 ## Node Silmek
