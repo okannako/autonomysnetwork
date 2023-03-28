@@ -47,7 +47,7 @@ After=network-online.target
 
 [Service]
 User=root
-ExecStart=/root/subspace-cli-ubuntu-x86_64-v3-v0.1.11-alpha farm --verbose
+ExecStart=/root/subspace-cli-ubuntu-x86_64-v3-v0.1.12 farm --verbose
 Restart=on-failure
 RestartSec=3
 LimitNOFILE=4096
@@ -64,14 +64,13 @@ sudo systemctl restart subspaced
 sudo journalctl -u subspaced -f --no-hostname -o cat
 ```
 
-## Güncelleme 0.1.11
- - Güncelleme yaptıktan sonra ```init``` adımını tekrar yapmalısınız.
+## Güncelleme 0.1.12
+ - Güncelleme yaptıktan sonra ```init``` adımını tekrar yapmanıza gerek YOK.
 ```
 sudo systemctl stop subspaced
 cd
-wget https://github.com/subspace/subspace-cli/releases/download/v0.1.11-alpha/subspace-cli-ubuntu-x86_64-v3-v0.1.11-alpha
-chmod +x subspace-cli-ubuntu-x86_64-v3-v0.1.11-alpha
-./subspace-cli-ubuntu-x86_64-v3-v0.1.10-alpha wipe
+wget https://github.com/subspace/subspace-cli/releases/download/v0.1.12/subspace-cli-ubuntu-x86_64-v3-v0.1.12
+chmod +x subspace-cli-ubuntu-x86_64-v3-v0.1.12
 ```
  
 ## Node Silmek
