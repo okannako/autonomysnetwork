@@ -65,7 +65,7 @@ sudo journalctl -u subspaced -f --no-hostname -o cat
 ```
 
 ## Güncelleme 0.1.12
- - Güncelleme yaptıktan sonra ```init``` adımını tekrar yapmanıza gerek YOK.
+ - Güncelleme yaptıktan sonra ```init``` adımını tekrar yapmanıza gerek YOK. Ayrıca servis adımınbı güncellemeden sonra tekrar YAPMALISINIZ.
 ```
 sudo systemctl stop subspaced
 cd
