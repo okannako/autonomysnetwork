@@ -11,7 +11,7 @@
 
 -Kurulumu aşağıdaki kodlarla başlatıyoruz ve root kullanısında olun.
 ```
-wget -q -O gemini3.sh https://raw.githubusercontent.com/okannako/subspacenetwork/main/gemini3c.sh && chmod +x gemini3c.sh && sudo /bin/bash gemini3c.sh
+wget -q -O gemini3c.sh https://raw.githubusercontent.com/okannako/subspacenetwork/main/gemini3c.sh && chmod +x gemini3c.sh && sudo /bin/bash gemini3c.sh
 ```
 - Yükleme bittikten sonra öncelikle aşağıdaki kodlarla Tmux yükleyip bir tmux sayfası açıyorsunuz. Tmux olmazsa sürekli çalışmaz.
  ```
