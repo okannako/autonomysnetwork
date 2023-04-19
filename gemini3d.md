@@ -46,9 +46,9 @@ wget -q -O gemini3d.sh https://raw.githubusercontent.com/okannako/subspacenetwor
  -Node silmek için tmux ekranında ```ctrl+c``` yaptıktan sonra aşağıdaki kodları girmeniz yeterli
 
 ```
-rm -rf ~/.local/share/subspace*
+rm -rf ~/.local/share/subspace-cli*
 rm -rf /etc/systemd/system/subspaced*
-rm -rf /usr/local/bin/subspace*
+rm -rf /usr/local/bin/subspace-cli*
 ```
 
 - Ödül toplamaya başladığınızda cüzdan adresinizi siteden aratabilirsiniz.
