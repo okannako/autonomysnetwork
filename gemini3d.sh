@@ -20,7 +20,7 @@ sleep 1
 echo "+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
 sleep 1
 echo -e "\e[1m\e[32m Dosyalar İndiriliyor/Downloading Files \e[0m" && sleep 2
-wget https://github.com/subspace/subspace-cli/releases/download/v0.3.3-alpha/subspace-cli-ubuntu-x86_64-v3-v0.3.3-alpha
-chmod +x subspace-cli-ubuntu-x86_64-v3-v0.3.3-alpha
+wget https://github.com/subspace/subspace-cli/releases/download/v0.4.1-alpha/subspace-cli-ubuntu-x86_64-v3-v0.4.1-alpha
+chmod +x subspace-cli-ubuntu-x86_64-v3-v0.4.1-alpha
 sleep 1
 echo -e "\e[1m\e[91m Yuklemeler bitti kilavuzdan diger adimlara gecebilirsiniz/The installations are finished, you can move on to the next steps in the guide \e[0m"
