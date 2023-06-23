@@ -9,13 +9,14 @@
 - https://polkadot.js.org/extension/ sitesinden cüzdan kurulumu yapıp cüzdan oluşturuyoruz ve bize verdiği gizli kelimeleri kesinlikle saklıyoruz. Ayrıca .json dosyasını da indirip yedeklemeyi unutmayın.
 - Daha sonra aşağıdaki kodlarla adım adım yükleme işlemine geçiyoruz.Script ile kurulum kısa bir zamanda tamamlanıyor o yüzden yükleme adımı için onu kullanıyoruz.
 
--Kurulumdan önce ÖNEMLİ bir nokta var . Eğer 3c'de node çalıştırıyorsanız ve 3d'ye geçmek istiyorsanız her şeyin öncesinde alttaki kodu çalıştırmalı ve vereceği uyarılara y diyerek temizleme işlemini yapmalısınız.
+-Kurulumdan önce ÖNEMLİ bir nokta var . Eğer 3c'de node çalıştırıyorsanız ve 3d'ye geçmek istiyorsanız ya da eski bir versiondan yenisine geçmek istiyorsanız her şeyin öncesinde alttaki kodu çalıştırmalı ve vereceği uyarılara y diyerek temizleme işlemini yapmalısınız. v3-v0.1.12 bölümünü kendi versiyonunuza göre düzenleyin.
 ```
 ./subspace-cli-ubuntu-x86_64-v3-v0.1.12 wipe
 ```
 
 -Kurulumu aşağıdaki kodlarla başlatıyoruz ve root kullanısında olun.
 ```
+rm -rf gemini3d.sh
 wget -q -O gemini3d.sh https://raw.githubusercontent.com/okannako/subspacenetwork/main/gemini3d.sh && chmod +x gemini3d.sh && sudo /bin/bash gemini3d.sh
 ```
 - Yükleme bittikten sonra öncelikle aşağıdaki kodlarla Tmux yükleyip bir tmux sayfası açıyorsunuz. Tmux olmazsa sürekli çalışmaz.
