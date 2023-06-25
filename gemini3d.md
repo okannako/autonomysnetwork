@@ -9,11 +9,6 @@
 - https://polkadot.js.org/extension/ sitesinden cüzdan kurulumu yapıp cüzdan oluşturuyoruz ve bize verdiği gizli kelimeleri kesinlikle saklıyoruz. Ayrıca .json dosyasını da indirip yedeklemeyi unutmayın.
 - Daha sonra aşağıdaki kodlarla adım adım yükleme işlemine geçiyoruz.Script ile kurulum kısa bir zamanda tamamlanıyor o yüzden yükleme adımı için onu kullanıyoruz.
 
--Kurulumdan önce ÖNEMLİ bir nokta var . Eğer 3c'de node çalıştırıyorsanız ve 3d'ye geçmek istiyorsanız ya da eski bir versiondan yenisine geçmek istiyorsanız her şeyin öncesinde alttaki kodu çalıştırmalı ve vereceği uyarılara y diyerek temizleme işlemini yapmalısınız. v3-v0.1.12 bölümünü kendi versiyonunuza göre düzenleyin.
-```
-./subspace-cli-ubuntu-x86_64-v3-v0.1.12 wipe
-```
-
 -Kurulumu aşağıdaki kodlarla başlatıyoruz ve root kullanısında olun.
 ```
 rm -rf gemini3d.sh
@@ -27,7 +22,7 @@ wget -q -O gemini3d.sh https://raw.githubusercontent.com/okannako/subspacenetwor
  ```
 - Sayfayı açtıktan sonra ilk olarak ayarlarımızı yapmak için alttaki kodu çalıştırıyoruz.
 ```
-./subspace-cli-ubuntu-x86_64-v3-v0.4.1-alpha init
+./subspace-cli-ubuntu-x86_64-v2-v0.4.2-alpha init
 ```
    -Burada sırayla bize sorduğu sorulara şu cevapları veriyoruz.
     1-) Cüzdan adresimizi soruyor, subspace adresimizi giriyoruz.
@@ -39,7 +34,7 @@ wget -q -O gemini3d.sh https://raw.githubusercontent.com/okannako/subspacenetwor
     
 - Şimdi aşağıdaki kodla da nodenumuzu başlatıyoruz. Bir süre sonra ```Node started successfully!``` uyarısı verecek ve sisteme eşitlenmeye başlayacak. Bu süre günlerde sürebilir.
 ```
-./subspace-cli-ubuntu-x86_64-v3-v0.4.1-alpha farm
+./subspace-cli-ubuntu-x86_64-v2-v0.4.2-alpha farm
 ```
 - Bundan sonra Tmux ekranını direkt kapatabilirsiniz ya da arkaya atmak için ```ctri+b d``` kombinasyonunu kullanabilirsiniz. Tekrar girmek içinse ```tmux attach -t subspace``` kodunu kullanabilirsiniz.
 
@@ -50,6 +45,16 @@ wget -q -O gemini3d.sh https://raw.githubusercontent.com/okannako/subspacenetwor
 rm -rf ~/.local/share/subspace-cli*
 rm -rf /etc/systemd/system/subspaced*
 rm -rf /usr/local/bin/subspace-cli*
+```
+
+## Güncelleme
+- Güncelleme için node durdurup aşağıdaki iki kodu çalıştırıp bittikten sonra farm koduyla node tekrar çalıştırabilirsiniz. Geçmiş dosyaları silmenize gerek yok. Eskisi üzerinden devam ediyor. Testnet olduğu için hata çıkarma ihtimali tabii ki de var, eğer çıkarırse ```wipe``` komutu ile geçmişi temizleyip ```farm``` koduyla tekrar başlatın.
+```
+rm -rf gemini3d.sh
+wget -q -O gemini3d.sh https://raw.githubusercontent.com/okannako/subspacenetwork/main/gemini3d.sh && chmod +x gemini3d.sh && sudo /bin/bash gemini3d.sh
+```
+```
+./subspace-cli-ubuntu-x86_64-v2-v0.4.2-alpha farm
 ```
 
 - Ödül toplamaya başladığınızda cüzdan adresinizi siteden aratabilirsiniz.
