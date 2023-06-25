@@ -48,7 +48,7 @@ rm -rf /usr/local/bin/subspace-cli*
 ```
 
 ## Güncelleme
-- Güncelleme için node durdurup aşağıdaki iki kodu çalıştırıp bittikten sonra farm koduyla node tekrar çalıştırabilirsiniz. Geçmiş dosyaları silmenize gerek yok. Eskisi üzerinden devam ediyor. Testnet olduğu için hata çıkarma ihtimali tabii ki de var, eğer çıkarırse ```wipe``` komutu ile geçmişi temizleyip ```farm``` koduyla tekrar başlatın.
+- Güncelleme için node durdurup aşağıdaki iki kodu çalıştırıp bittikten sonra farm koduyla node tekrar çalıştırabilirsiniz. Geçmiş dosyaları silmenize gerek yok. Eskisi üzerinden devam ediyor. Testnet olduğu için hata çıkarma ihtimali tabii ki de var, eğer çıkarırse ```wipe``` komutu ile ya da Node Silmek adımıyla geçmişi temizleyip ```farm``` koduyla tekrar başlatın.
 ```
 rm -rf gemini3d.sh
 wget -q -O gemini3d.sh https://raw.githubusercontent.com/okannako/subspacenetwork/main/gemini3d.sh && chmod +x gemini3d.sh && sudo /bin/bash gemini3d.sh
