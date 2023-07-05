@@ -11,7 +11,7 @@
 
 -Kurulumu aşağıdaki kodlarla başlatıyoruz ve root kullanısında olun.
 ```
-rm -rf gemini3d.sh
+rm -rf gemini3e.sh
 wget -q -O gemini3e.sh https://raw.githubusercontent.com/okannako/subspacenetwork/main/gemini3e.sh && chmod +x gemini3e.sh && sudo /bin/bash gemini3e.sh
 ```
 
