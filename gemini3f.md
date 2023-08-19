@@ -1,7 +1,7 @@
 ## Tavsiye Edilen Sistem Gereksinimleri
 - CPU: 4+ ÇEKİRDEK
 - RAM: 8+ GB
-- SSD: Kodda gireceğiniz boyut  ile bağlantılı gireceğiniz değer dışında +100GB yer olmalı. (Kodda Plot Size:1GB girilecekse HDD'nin BOYUTU en az 101GB OLMALI.)
+- SSD: Kodda gireceğiniz boyut  ile bağlantılı gireceğiniz değer dışında +100GB yer olmalı. (Kodda Plot Size:2GB girilecekse HDD'nin BOYUTU en az 102GB OLMALI. Tavsiyem böyle bir girişte 120GB'dan aşağı olmasın toplam boyut.)
 - İşletim Sistemi: Ubuntu 20.04LTS
 
 ## Kurulum Adımları ve Kodları
@@ -31,12 +31,13 @@ wget -q -O gemini3f.sh https://raw.githubusercontent.com/okannako/subspacenetwor
 ./pulsar-ubuntu-x86_64-skylake-v0.6.0-alpha init
 ```
    -Burada sırayla bize sorduğu sorulara şu cevapları veriyoruz.
-    1-) Cüzdan adresimizi soruyor, subspace adresimizi giriyoruz.
-    2-) Node isminizi soruyor, istediğiniz bir ismi verebilirsiniz, listede bu isminiz görünecek.
-    3-) Enter
-    4-) Plot Size sorusunda minimum değer olarak 1GB (Değer girme şekli böyle olmalı yoksa hata alırsınız) girebilirsiniz, maximum yok.
+    1-) y
+    2-) Cüzdan adresimizi soruyor, subspace adresimizi giriyoruz.
+    3-) Node isminizi soruyor, istediğiniz bir ismi verebilirsiniz, listede bu isminiz görünecek.
+    4-) Enter
     5-) Enter
-    6-) Enter
+    6-) Plot Size sorusunda minimum değer olarak 2GB (Değer girme şekli böyle olmalı yoksa hata alırsınız) girebilirsiniz, maximum yok.
+    7-) Enter
     
 - Şimdi aşağıdaki kodla da nodenumuzu başlatıyoruz. Bir süre sonra ```Node started successfully!``` uyarısı verecek ve sisteme eşitlenmeye başlayacak.
 ```
