@@ -59,7 +59,7 @@ rm -rf /usr/local/bin/subspace-cli*
 - Başlatma işlemini yaptıktan sonra şu sitede isminizin bir süre sonra görünmesi gerekiyor.
      - https://telemetry.subspace.network/#list/0x92e91e657747c41eeabed5129ff51689d2e935b9f6abfbd5dfcb2e1d0d035095
 - Son olarak aşağıdaki siteye giderek ve cüzdanımıza izin vererek blok imzaladıkça kazandığınımız ödülü görebiliriz.
-     - https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fdomain-0.evm.gemini-3f.subspace.network%2Fws%20#/explorer
+     - https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-0.gemini-3f.subspace.network%2Fws#/accounts
 
 
 
