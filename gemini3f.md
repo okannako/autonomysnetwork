@@ -9,7 +9,7 @@
 - https://polkadot.js.org/extension/ sitesinden cüzdan kurulumu yapıp cüzdan oluşturuyoruz ve bize verdiği gizli kelimeleri kesinlikle saklıyoruz. Ayrıca .json dosyasını da indirip yedeklemeyi unutmayın.
 - Daha sonra aşağıdaki kodlarla adım adım yükleme işlemine geçiyoruz.Script ile kurulum kısa bir zamanda tamamlanıyor o yüzden yükleme adımı için onu kullanıyoruz.
 
--Kurulumu aşağıdaki kodlarla başlatıyoruz ve root kullanısında olun.
+-Kurulumu aşağıdaki kodlarla başlatıyoruz ve root kullanıcısında olun.
 ```
 rm -rf gemini3f.sh
 wget -q -O gemini3f.sh https://raw.githubusercontent.com/okannako/subspacenetwork/main/gemini3f.sh && chmod +x gemini3f.sh && sudo /bin/bash gemini3f.sh
