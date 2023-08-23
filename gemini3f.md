@@ -45,6 +45,18 @@ wget -q -O gemini3f.sh https://raw.githubusercontent.com/okannako/subspacenetwor
 ```
 - Bundan sonra Tmux ekranını arkaya atmak için ```ctri+b d``` kombinasyonunu kullanabilirsiniz. Tekrar girmek içinse ```tmux attach -t subspace``` kodunu kullanabilirsiniz.
 
+## 23 Ağustos Güncelleme Adımları
+
+- Yeni bir versiyonla devam edeceğimiz için diski temizleyip tekrar başlatmamız takım tarafından önerildi, bende buna göre işlemlerimi yaptım ve aşağıya kod sıralamasını yazdım. "wipe" kodunu girince bütün sorulara "y" diyoruz. "init kodunu girdiğimizde de sorduğu sorulara ilk kurulum yaptığımız zaman verdiğimiz cevapları verebilirsiniz.
+
+```
+rm -rf gemini3f.sh
+wget -q -O gemini3f.sh https://raw.githubusercontent.com/okannako/subspacenetwork/main/gemini3f.sh && chmod +x gemini3f.sh && sudo /bin/bash gemini3f.sh
+./pulsar-ubuntu-x86_64-skylake-v0.6.2-alpha wipe
+./pulsar-ubuntu-x86_64-skylake-v0.6.2-alpha init
+./pulsar-ubuntu-x86_64-skylake-v0.6.2-alpha farm
+```
+
 ## Node Silmek
  -Node silmek için tmux ekranında ```ctrl+c``` yaptıktan sonra aşağıdaki kodları girmeniz yeterli
 
