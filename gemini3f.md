@@ -17,7 +17,7 @@ wget -q -O gemini3f.sh https://raw.githubusercontent.com/okannako/subspacenetwor
 
 -Öncesinde eski bir node olsun ya da olmasın wipe komutunu çalıştırıyoruz.
 ```
-./pulsar-ubuntu-x86_64-skylake-v0.6.0-alpha wipe
+./pulsar-ubuntu-x86_64-skylake-v0.6.3-alpha wipe
 ```
 
 - Yükleme bittikten sonra öncelikle aşağıdaki kodlarla Tmux yükleyip bir tmux sayfası açıyorsunuz. Tmux olmazsa sürekli çalışmaz.
@@ -28,7 +28,7 @@ wget -q -O gemini3f.sh https://raw.githubusercontent.com/okannako/subspacenetwor
  ```
 - Sayfayı açtıktan sonra ilk olarak ayarlarımızı yapmak için alttaki kodu çalıştırıyoruz.
 ```
-./pulsar-ubuntu-x86_64-skylake-v0.6.0-alpha init
+./pulsar-ubuntu-x86_64-skylake-v0.6.3-alpha init
 ```
    -Burada sırayla bize sorduğu sorulara şu cevapları veriyoruz.
     1-) y
@@ -41,20 +41,18 @@ wget -q -O gemini3f.sh https://raw.githubusercontent.com/okannako/subspacenetwor
     
 - Şimdi aşağıdaki kodla da nodenumuzu başlatıyoruz. Bir süre sonra ```Node started successfully!``` uyarısı verecek ve sisteme eşitlenmeye başlayacak.
 ```
-./pulsar-ubuntu-x86_64-skylake-v0.6.0-alpha farm
+./pulsar-ubuntu-x86_64-skylake-v0.6.3-alpha farm
 ```
 - Bundan sonra Tmux ekranını arkaya atmak için ```ctri+b d``` kombinasyonunu kullanabilirsiniz. Tekrar girmek içinse ```tmux attach -t subspace``` kodunu kullanabilirsiniz.
 
-## 23 Ağustos Güncelleme Adımları
+## 24 Ağustos Güncelleme Adımları
 
-- Yeni bir versiyonla devam edeceğimiz için diski temizleyip tekrar başlatmamız takım tarafından önerildi, bende buna göre işlemlerimi yaptım ve aşağıya kod sıralamasını yazdım. "wipe" kodunu girince bütün sorulara "y" diyoruz. "init kodunu girdiğimizde de sorduğu sorulara ilk kurulum yaptığımız zaman verdiğimiz cevapları verebilirsiniz.
+- Eğer v0.6.0'dan güncelleyecekseniz "wipe" kodunu girip temizlik yapmanız lazım eğer v0.6.2'den yükseltiyorsanız alttaki kodları sırayla girmeniz yeterli.
 
 ```
 rm -rf gemini3f.sh
 wget -q -O gemini3f.sh https://raw.githubusercontent.com/okannako/subspacenetwork/main/gemini3f.sh && chmod +x gemini3f.sh && sudo /bin/bash gemini3f.sh
-./pulsar-ubuntu-x86_64-skylake-v0.6.2-alpha wipe
-./pulsar-ubuntu-x86_64-skylake-v0.6.2-alpha init
-./pulsar-ubuntu-x86_64-skylake-v0.6.2-alpha farm
+./pulsar-ubuntu-x86_64-skylake-v0.6.3-alpha farm
 ```
 
 ## Node Silmek
