@@ -50,7 +50,7 @@ wget -q -O gemini3f.sh https://raw.githubusercontent.com/okannako/subspacenetwor
 - Eğer v0.6.0'dan güncelleyecekseniz "wipe" kodunu girip temizlik yapmanız lazım eğer v0.6.3'den yükseltiyorsanız alttaki kodları sırayla girmeniz yeterli.
 
 ```
-rm -rf gemini3f.sh
+rm -rf gemini3f.sh && rm -rf gemini3f.sh
 wget -q -O gemini3f.sh https://raw.githubusercontent.com/okannako/subspacenetwork/main/gemini3f.sh && chmod +x gemini3f.sh && sudo /bin/bash gemini3f.sh
 ./pulsar-ubuntu-x86_64-skylake-v0.6.4-alpha farm
 ```
