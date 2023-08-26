@@ -28,7 +28,7 @@ wget -q -O gemini3f.sh https://raw.githubusercontent.com/okannako/subspacenetwor
  ```
 - Sayfayı açtıktan sonra ilk olarak ayarlarımızı yapmak için alttaki kodu çalıştırıyoruz.
 ```
-./pulsar-ubuntu-x86_64-skylake-v0.6.3-alpha init
+./pulsar-ubuntu-x86_64-skylake-v0.6.4-alpha init
 ```
    -Burada sırayla bize sorduğu sorulara şu cevapları veriyoruz.
     1-) y
