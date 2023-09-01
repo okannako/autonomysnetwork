@@ -41,7 +41,7 @@ wget -q -O gemini3f.sh https://raw.githubusercontent.com/okannako/subspacenetwor
     
 - Şimdi aşağıdaki kodla da nodenumuzu başlatıyoruz. Bir süre sonra ```Node started successfully!``` uyarısı verecek ve sisteme eşitlenmeye başlayacak.
 ```
-./pulsar-ubuntu-x86_64-skylake-v0.6.4-alpha farm
+./pulsar-ubuntu-x86_64-skylake-v0.6.5-alpha farm
 ```
 - Bundan sonra Tmux ekranını arkaya atmak için ```ctri+b d``` kombinasyonunu kullanabilirsiniz. Tekrar girmek içinse ```tmux attach -t subspace``` kodunu kullanabilirsiniz.
 
