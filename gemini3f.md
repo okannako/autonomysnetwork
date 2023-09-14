@@ -45,14 +45,14 @@ wget -q -O gemini3f.sh https://raw.githubusercontent.com/okannako/subspacenetwor
 ```
 - Bundan sonra Tmux ekranını arkaya atmak için ```ctri+b d``` kombinasyonunu kullanabilirsiniz. Tekrar girmek içinse ```tmux attach -t subspace``` kodunu kullanabilirsiniz.
 
-## v0.6.6 Güncelleme Adımları
+## v0.6.8 Güncelleme Adımları
 
-- Eğer v0.6.0'dan güncelleyecekseniz "wipe" kodunu girip temizlik yapmanız lazım eğer v0.6.3'den yükseltiyorsanız alttaki kodları sırayla girmeniz yeterli.
+- Eğer v0.6.0'dan güncelleyecekseniz "wipe" kodunu girip temizlik yapmanız lazım eğer v0.6.6'dan yükseltiyorsanız alttaki kodları sırayla girmeniz yeterli.
 
 ```
 rm -rf gemini3f.sh && rm -rf gemini3f.sh
 wget -q -O gemini3f.sh https://raw.githubusercontent.com/okannako/subspacenetwork/main/gemini3f.sh && chmod +x gemini3f.sh && sudo /bin/bash gemini3f.sh
-./pulsar-ubuntu-x86_64-skylake-v0.6.6-alpha farm
+./pulsar-ubuntu-x86_64-skylake-v0.6.8-alpha farm
 ```
 
 ## Node Silmek
