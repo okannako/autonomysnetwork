@@ -17,7 +17,7 @@ wget -q -O gemini3f.sh https://raw.githubusercontent.com/okannako/subspacenetwor
 
 -Öncesinde eski bir node olsun ya da olmasın wipe komutunu çalıştırıyoruz.
 ```
-./pulsar-ubuntu-x86_64-skylake-v0.6.8-alpha wipe
+./pulsar-ubuntu-x86_64-skylake-v0.6.9-alpha wipe
 ```
 
 - Yükleme bittikten sonra öncelikle aşağıdaki kodlarla Tmux yükleyip bir tmux sayfası açıyorsunuz. Tmux olmazsa sürekli çalışmaz.
@@ -28,7 +28,7 @@ wget -q -O gemini3f.sh https://raw.githubusercontent.com/okannako/subspacenetwor
  ```
 - Sayfayı açtıktan sonra ilk olarak ayarlarımızı yapmak için alttaki kodu çalıştırıyoruz.
 ```
-./pulsar-ubuntu-x86_64-skylake-v0.6.8-alpha init
+./pulsar-ubuntu-x86_64-skylake-v0.6.9-alpha init
 ```
    -Burada sırayla bize sorduğu sorulara şu cevapları veriyoruz.
     1-) y
@@ -41,7 +41,7 @@ wget -q -O gemini3f.sh https://raw.githubusercontent.com/okannako/subspacenetwor
     
 - Şimdi aşağıdaki kodla da nodenumuzu başlatıyoruz. Bir süre sonra ```Node started successfully!``` uyarısı verecek ve sisteme eşitlenmeye başlayacak.
 ```
-./pulsar-ubuntu-x86_64-skylake-v0.6.8-alpha farm
+./pulsar-ubuntu-x86_64-skylake-v0.6.9-alpha farm
 ```
 - Bundan sonra Tmux ekranını arkaya atmak için ```ctri+b d``` kombinasyonunu kullanabilirsiniz. Tekrar girmek içinse ```tmux attach -t subspace``` kodunu kullanabilirsiniz.
 
@@ -52,7 +52,7 @@ wget -q -O gemini3f.sh https://raw.githubusercontent.com/okannako/subspacenetwor
 ```
 rm -rf gemini3f.sh && rm -rf gemini3f.sh
 wget -q -O gemini3f.sh https://raw.githubusercontent.com/okannako/subspacenetwork/main/gemini3f.sh && chmod +x gemini3f.sh && sudo /bin/bash gemini3f.sh
-./pulsar-ubuntu-x86_64-skylake-v0.6.8-alpha farm
+./pulsar-ubuntu-x86_64-skylake-v0.6.9-alpha farm
 ```
 
 ## Node Silmek
