@@ -45,7 +45,7 @@ wget -q -O gemini3f.sh https://raw.githubusercontent.com/okannako/subspacenetwor
 ```
 - Bundan sonra Tmux ekranını arkaya atmak için ```ctri+b d``` kombinasyonunu kullanabilirsiniz. Tekrar girmek içinse ```tmux attach -t subspace``` kodunu kullanabilirsiniz.
 
-## v0.6.10 Güncelleme Adımları
+## v0.6.11 Güncelleme Adımları
 
 - Eğer v0.6.0'dan güncelleyecekseniz "wipe" kodunu girip temizlik yapmanız lazım eğer v0.6.8'dan yükseltiyorsanız alttaki kodları sırayla girmeniz yeterli.
 
