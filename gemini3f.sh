@@ -20,7 +20,7 @@ sleep 1
 echo "+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
 sleep 1
 echo -e "\e[1m\e[32m Dosyalar İndiriliyor/Downloading Files \e[0m" && sleep 2
-wget https://github.com/subspace/pulsar/releases/download/v0.6.10-alpha/pulsar-ubuntu-x86_64-skylake-v0.6.10-alpha
-chmod +x pulsar-ubuntu-x86_64-skylake-v0.6.10-alpha
+wget https://github.com/subspace/pulsar/releases/download/v0.6.11-alpha/pulsar-ubuntu-x86_64-skylake-v0.6.11-alpha
+chmod +x pulsar-ubuntu-x86_64-skylake-v0.6.11-alpha
 sleep 1
 echo -e "\e[1m\e[91m Yuklemeler bitti kilavuzdan diger adimlara gecebilirsiniz/The installations are finished, you can move on to the next steps in the guide \e[0m"
