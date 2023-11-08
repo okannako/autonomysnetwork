@@ -9,7 +9,10 @@
 - https://polkadot.js.org/extension/ sitesinden cüzdan kurulumu yapıp cüzdan oluşturuyoruz ve bize verdiği gizli kelimeleri kesinlikle saklıyoruz. Ayrıca .json dosyasını da indirip yedeklemeyi unutmayın.
 - Daha sonra aşağıdaki kodlarla adım adım yükleme işlemine geçiyoruz.Script ile kurulum kısa bir zamanda tamamlanıyor o yüzden yükleme adımı için onu kullanıyoruz.
 
--Kurulumu aşağıdaki kodlarla başlatıyoruz.
+-Kurulumu aşağıdaki kodlarla başlatıyoruz. Öncelikle 3f den kalan datayı temizlemek için eski node ```Ctrl+C``` ye basarak durduruyoruz daha sonra aşağıdaki kodu çalıştırın ve her şeyi onaylayın. Daha sonra diğer kodla yeni node muzu kuruyoruz.
+```
+./pulsar-ubuntu-x86_64-skylake-v0.6.14-alpha wipe
+```
 ```
 wget -q -O gemini3g.sh https://raw.githubusercontent.com/okannako/subspacenetwork/main/gemini3g.sh && chmod +x gemini3g.sh && sudo /bin/bash gemini3g.sh
 ```
