@@ -95,7 +95,7 @@ Description=Subspace Farmer
 
 [Service]
 User=$USER
-ExecStart=subspace-farmer farm --reward-address $ADDRESS --plot-size $PLOTSIZE
+ExecStart=subspace-farmer farm --reward-address $ADDRESS path=\root\subspacefarmer\plots,size=$PLOTSIZE
 Restart=always
 RestartSec=10
 LimitNOFILE=10000
