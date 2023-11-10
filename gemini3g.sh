@@ -40,6 +40,11 @@ sudo mv subspace-farmer-ubuntu-x86_64-skylake-gemini-3g-2023-nov-09 /usr/local/b
 
 sudo chmod +x /usr/local/bin/subspace*
 
+mkdir subspacenode
+sudo chmod 700 ~/subspacenode
+mkdir subspacefarmer
+sudo chmod 700 ~/subspacefarmer
+
 echo "+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
 
 echo -e "\e[1m\e[32m Subspace Cüzdan Adresi / Enter Subspace wallet address. \e[0m"
@@ -95,7 +100,7 @@ Description=Subspace Farmer
 
 [Service]
 User=$USER
-ExecStart=subspace-farmer farm --reward-address $ADDRESS path=\root\subspacefarmer\plots,size=$PLOTSIZE
+ExecStart=subspace-farmer farm --reward-address $ADDRESS path=/root/subspacefarmer,size=$PLOTSIZE
 Restart=always
 RestartSec=10
 LimitNOFILE=10000
