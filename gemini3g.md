@@ -33,6 +33,8 @@ sudo systemctl disable subspace-farmer.service
 rm -rf ~/.local/share/subspace*
 rm -rf /etc/systemd/system/subspaced*
 rm -rf /usr/local/bin/subspace*
+rm -rf subspacenode
+rm -rf subspacefarmer
 ```
 
 
