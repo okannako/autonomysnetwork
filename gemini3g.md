@@ -42,3 +42,5 @@ rm -rf subspacefarmer
      - https://telemetry.subspace.network/#list/0x418040fc282f5e5ddd432c46d05297636f6f75ce68d66499ff4cbda69ccd180b
 - Son olarak aşağıdaki siteye giderek ve cüzdanımıza izin vererek blok imzaladıkça kazandığınımız ödülü görebiliriz.
      - https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-0.gemini-3g.subspace.network%2Fws#/explorer
+- Subscan, cüzdanınız ve ağ hakkında bilgileri bulabilirsiniz.
+     - https://subspace.subscan.io/
