@@ -28,6 +28,7 @@ wget https://github.com/subspace/subspace/releases/download/gemini-3g-2023-nov-1
 wget https://github.com/subspace/subspace/releases/download/gemini-3g-2023-nov-15/subspace-node-ubuntu-x86_64-skylake-gemini-3g-2023-nov-15
 sudo mv subspace-node-ubuntu-x86_64-skylake-gemini-3g-2023-nov-15 /usr/local/bin/subspace-node
 sudo mv subspace-farmer-ubuntu-x86_64-skylake-gemini-3g-2023-nov-15 /usr/local/bin/subspace-farmer
+sudo chmod +x /usr/local/bin/subspace*
 sudo systemctl start subspace-farmer.service
 sudo systemctl start subspace-node.service
 ```
@@ -53,6 +54,7 @@ wget https://github.com/subspace/subspace/releases/download/gemini-3g-2023-nov-1
 wget https://github.com/subspace/subspace/releases/download/gemini-3g-2023-nov-15/subspace-node-ubuntu-x86_64-v2-gemini-3g-2023-nov-15
 sudo mv subspace-node-ubuntu-x86_64-v2-gemini-3g-2023-nov-15 /usr/local/bin/subspace-node
 sudo mv subspace-farmer-ubuntu-x86_64-v2-gemini-3g-2023-nov-15 /usr/local/bin/subspace-farmer
+sudo chmod +x /usr/local/bin/subspace*
 sudo systemctl start subspace-farmer.service
 sudo systemctl start subspace-node.service
 ```
