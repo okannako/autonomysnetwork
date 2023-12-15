@@ -72,6 +72,15 @@ rm -rf subspacenode
 rm -rf subspacefarmer
 ```
 
+## Operator Kodları
+- Lütfen video ile birlikte ilerleyin.
+```
+wget https://github.com/subspace/subspace/releases/download/gemini-3g-2023-dec-11/subspace-node-ubuntu-x86_64-skylake-gemini-3g-2023-dec-11
+sudo mv subspace-node-ubuntu-x86_64-skylake-gemini-3g-2023-dec-11 subspace-node
+mkdir subspacedata
+sudo chmod 700 ~/subspacedata
+```
+- Bütün Adımlar > https://docs.subspace.network/docs/farming-&-staking/staking/operators
 
 - Başlatma işlemini yaptıktan sonra şu sitede isminizin bir süre sonra görünmesi gerekiyor.
      - https://telemetry.subspace.network/#list/0x418040fc282f5e5ddd432c46d05297636f6f75ce68d66499ff4cbda69ccd180b
