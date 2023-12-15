@@ -79,6 +79,7 @@ wget https://github.com/subspace/subspace/releases/download/gemini-3g-2023-dec-1
 sudo mv subspace-node-ubuntu-x86_64-skylake-gemini-3g-2023-dec-15 subspace-node
 mkdir subspacedata
 sudo chmod 700 ~/subspacedata
+sudo chmod +x subspace*
 ```
 - Bütün Adımlar > https://docs.subspace.network/docs/farming-&-staking/staking/operators
 
