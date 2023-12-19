@@ -74,6 +74,7 @@ rm -rf subspacefarmer
 
 ## Operator Kodları
 - Lütfen video ile birlikte ilerleyin.
+   - https://www.youtube.com/watch?v=oBiW8F6DoUk&t=654s
 ```
 tmux new-session -t sub1
 wget https://github.com/subspace/subspace/releases/download/gemini-3g-2023-dec-18-2/subspace-node-ubuntu-x86_64-skylake-gemini-3g-2023-dec-18-2
