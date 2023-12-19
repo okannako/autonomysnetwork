@@ -19,15 +19,15 @@ wget -q -O gemini3g.sh https://raw.githubusercontent.com/okannako/subspacenetwor
 - Yukarıdaki kodları sırayla girdikten sonra ilk olarak bir soruyla karşılaşıyoruz eğer önceden kurulumunuz varsa 'n' yazıp ilerliyorsunuz kurulumunuz yoksa ne yazdığınız önemli değil.
 - Daha sonra polkadot cüzdan ile oluşturduğunuz cüzdanınızın adresi sonra node nuza vermek istediğiniz ismi girdikten sonra gelen soruya 'y' diyerek devam ediyoruz ve kurulumu bitiriyoruz ve bize verdiği node kontrol kodlarını bir yere kopyalıyoruzi ilerde kontrol için kullanacağız.
 
-## 15 Aralık Güncelleme Kodları
+## 18 Aralık Güncelleme Kodları
 - Aşağodaki kodları sırayla girip logları ve telemetryi kontrol etmek yeterli.
 ```
 sudo systemctl stop subspace-farmer.service
 sudo systemctl stop subspace-node.service
-wget https://github.com/subspace/subspace/releases/download/gemini-3g-2023-dec-15/subspace-farmer-ubuntu-x86_64-skylake-gemini-3g-2023-dec-15
-wget https://github.com/subspace/subspace/releases/download/gemini-3g-2023-dec-15/subspace-node-ubuntu-x86_64-skylake-gemini-3g-2023-dec-15
-sudo mv subspace-node-ubuntu-x86_64-skylake-gemini-3g-2023-dec-15 /usr/local/bin/subspace-node
-sudo mv subspace-farmer-ubuntu-x86_64-skylake-gemini-3g-2023-dec-15 /usr/local/bin/subspace-farmer
+wget https://github.com/subspace/subspace/releases/download/gemini-3g-2023-dec-18/subspace-farmer-ubuntu-x86_64-skylake-gemini-3g-2023-dec-18
+wget https://github.com/subspace/subspace/releases/download/gemini-3g-2023-dec-18/subspace-node-ubuntu-x86_64-skylake-gemini-3g-2023-dec-18
+sudo mv subspace-node-ubuntu-x86_64-skylake-gemini-3g-2023-dec-18 /usr/local/bin/subspace-node
+sudo mv subspace-farmer-ubuntu-x86_64-skylake-gemini-3g-2023-dec-18 /usr/local/bin/subspace-farmer
 sudo chmod +x /usr/local/bin/subspace*
 sudo systemctl start subspace-farmer.service
 sudo systemctl start subspace-node.service
@@ -45,15 +45,15 @@ wget -q -O gemini3gp.sh https://raw.githubusercontent.com/okannako/subspacenetwo
 sudo systemctl restart systemd-journald
 ```
 
-## 15 Aralık Core Dumped Güncelleme Kodları
+## 18 Aralık Core Dumped Güncelleme Kodları
 - Aşağodaki kodları sırayla girip logları ve telemetryi kontrol etmek yeterli.
 ```
 sudo systemctl stop subspace-farmer.service
 sudo systemctl stop subspace-node.service
-wget https://github.com/subspace/subspace/releases/download/gemini-3g-2023-dec-15/subspace-farmer-ubuntu-x86_64-v2-gemini-3g-2023-dec-15
-wget https://github.com/subspace/subspace/releases/download/gemini-3g-2023-dec-15/subspace-node-ubuntu-x86_64-v2-gemini-3g-2023-dec-15
-sudo mv subspace-node-ubuntu-x86_64-v2-gemini-3g-2023-dec-15 /usr/local/bin/subspace-node
-sudo mv subspace-farmer-ubuntu-x86_64-v2-gemini-3g-2023-dec-15 /usr/local/bin/subspace-farmer
+wget https://github.com/subspace/subspace/releases/download/gemini-3g-2023-dec-18/subspace-farmer-ubuntu-x86_64-v2-gemini-3g-2023-dec-18
+wget https://github.com/subspace/subspace/releases/download/gemini-3g-2023-dec-18/subspace-node-ubuntu-x86_64-v2-gemini-3g-2023-dec-18
+sudo mv subspace-node-ubuntu-x86_64-v2-gemini-3g-2023-dec-18 /usr/local/bin/subspace-node
+sudo mv subspace-farmer-ubuntu-x86_64-v2-gemini-3g-2023-dec-18 /usr/local/bin/subspace-farmer
 sudo chmod +x /usr/local/bin/subspace*
 sudo systemctl start subspace-farmer.service
 sudo systemctl start subspace-node.service
@@ -76,8 +76,8 @@ rm -rf subspacefarmer
 - Lütfen video ile birlikte ilerleyin.
 ```
 tmux new-session -t sub1
-wget https://github.com/subspace/subspace/releases/download/gemini-3g-2023-dec-15/subspace-node-ubuntu-x86_64-skylake-gemini-3g-2023-dec-15
-sudo mv subspace-node-ubuntu-x86_64-skylake-gemini-3g-2023-dec-15 subspace-node
+wget https://github.com/subspace/subspace/releases/download/gemini-3g-2023-dec-18/subspace-node-ubuntu-x86_64-skylake-gemini-3g-2023-dec-18
+sudo mv subspace-node-ubuntu-x86_64-skylake-gemini-3g-2023-dec-18 subspace-node
 mkdir subspacedata
 sudo chmod 700 ~/subspacedata
 sudo chmod +x subspace*
