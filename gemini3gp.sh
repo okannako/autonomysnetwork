@@ -30,13 +30,13 @@ fi
 
 echo "+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
 
-wget https://github.com/subspace/subspace/releases/download/gemini-3g-2023-dec-18-2/subspace-farmer-ubuntu-x86_64-v2-gemini-3g-2023-dec-18-2
+wget https://github.com/subspace/subspace/releases/download/gemini-3g-2023-dec-20/subspace-farmer-ubuntu-x86_64-v2-gemini-3g-2023-dec-20
 
-wget https://github.com/subspace/subspace/releases/download/gemini-3g-2023-dec-18-2/subspace-node-ubuntu-x86_64-v2-gemini-3g-2023-dec-18-2
+wget https://github.com/subspace/subspace/releases/download/gemini-3g-2023-dec-20/subspace-node-ubuntu-x86_64-v2-gemini-3g-2023-dec-20
 
-sudo mv subspace-node-ubuntu-x86_64-v2-gemini-3g-2023-dec-18-2 /usr/local/bin/subspace-node
+sudo mv subspace-node-ubuntu-x86_64-v2-gemini-3g-2023-dec-20 /usr/local/bin/subspace-node
 
-sudo mv subspace-farmer-ubuntu-x86_64-v2-gemini-3g-2023-dec-18-2 /usr/local/bin/subspace-farmer
+sudo mv subspace-farmer-ubuntu-x86_64-v2-gemini-3g-2023-dec-20 /usr/local/bin/subspace-farmer
 
 sudo chmod +x /usr/local/bin/subspace*
 
@@ -100,7 +100,7 @@ Description=Subspace Farmer
 
 [Service]
 User=$USER
-ExecStart=subspace-farmer farm --reward-address $ADDRESS --farm-during-initial-plotting path=/root/subspacefarmer,size=$PLOTSIZE
+ExecStart=subspace-farmer farm --reward-address $ADDRESS path=/root/subspacefarmer,size=$PLOTSIZE
 Restart=always
 RestartSec=10
 LimitNOFILE=10000
