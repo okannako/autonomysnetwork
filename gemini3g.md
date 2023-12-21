@@ -25,7 +25,7 @@ wget -q -O gemini3g.sh https://raw.githubusercontent.com/okannako/subspacenetwor
 nano /etc/systemd/system/subspace-farmer.service
 ```
 ```
-systemctl daemon-reload
+sudo systemctl daemon-reload
 sudo systemctl stop subspace-farmer.service
 sudo systemctl stop subspace-node.service
 wget https://github.com/subspace/subspace/releases/download/gemini-3g-2023-dec-20/subspace-farmer-ubuntu-x86_64-skylake-gemini-3g-2023-dec-20
@@ -55,7 +55,7 @@ sudo systemctl restart systemd-journald
 nano /etc/systemd/system/subspace-farmer.service
 ```
 ```
-systemctl daemon-reload
+sudo systemctl daemon-reload
 sudo systemctl stop subspace-farmer.service
 sudo systemctl stop subspace-node.service
 wget https://github.com/subspace/subspace/releases/download/gemini-3g-2023-dec-20/subspace-farmer-ubuntu-x86_64-v2-gemini-3g-2023-dec-20
