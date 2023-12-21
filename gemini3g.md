@@ -67,6 +67,14 @@ sudo systemctl start subspace-farmer.service
 sudo systemctl start subspace-node.service
 ```
 
+## Log Komutları
+```
+journalctl -u subspace-farmer.service -f
+```
+```
+journalctl -u subspace-node.service -f
+```
+
 ## Node Silmek
 
 ```
