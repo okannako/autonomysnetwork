@@ -20,7 +20,10 @@ wget -q -O gemini3g.sh https://raw.githubusercontent.com/okannako/subspacenetwor
 - Daha sonra polkadot cüzdan ile oluşturduğunuz cüzdanınızın adresi sonra node nuza vermek istediğiniz ismi girdikten sonra gelen soruya 'y' diyerek devam ediyoruz ve kurulumu bitiriyoruz ve bize verdiği node kontrol kodlarını bir yere kopyalıyoruzi ilerde kontrol için kullanacağız.
 
 ## 20 Aralık Güncelleme Kodları
-- Aşağodaki kodları sırayla girip logları ve telemetryi kontrol etmek yeterli.
+- Öncelikle aşağıdaki kodu giriyoruz. Açılan ekranda ```ExecStart``` satırınına gelip ```--farm-during-initial-plotting ``` bölümünü silip ```ctrl+x``` sonra ```y``` ve ```enter``` a basıp sonraki kodları sırayla girmek yeterli. En son kodu girdikten 5 dakika sonra hem farmer hem de ndoe loglarını kontrol etmeyi unutmayın
+```
+nano /etc/systemd/system/subspace-farmer.service
+```
 ```
 sudo systemctl stop subspace-farmer.service
 sudo systemctl stop subspace-node.service
@@ -46,7 +49,10 @@ sudo systemctl restart systemd-journald
 ```
 
 ## 20 Aralık Core Dumped Güncelleme Kodları
-- Aşağodaki kodları sırayla girip logları ve telemetryi kontrol etmek yeterli.
+- Öncelikle aşağıdaki kodu giriyoruz. Açılan ekranda ```ExecStart``` satırınına gelip ```--farm-during-initial-plotting ``` bölümünü silip ```ctrl+x``` sonra ```y``` ve ```enter``` a basıp sonraki kodları sırayla girmek yeterli. En son kodu girdikten 5 dakika sonra hem farmer hem de ndoe loglarını kontrol etmeyi unutmayın
+```
+nano /etc/systemd/system/subspace-farmer.service
+```
 ```
 sudo systemctl stop subspace-farmer.service
 sudo systemctl stop subspace-node.service
