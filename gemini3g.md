@@ -94,13 +94,21 @@ rm -rf subspacefarmer
 ```
 tmux new-session -t sub1
 wget https://github.com/subspace/subspace/releases/download/gemini-3g-2024-jan-03/subspace-node-ubuntu-x86_64-skylake-gemini-3g-2024-jan-03
-sudo mv subspace-node-ubuntu-x86_64-skylake-gemini-3g-2024-jan-03 /usr/local/bin/subspace-node
+sudo mv subspace-node-ubuntu-x86_64-skylake-gemini-3g-2024-jan-03 subspace-node
 mkdir subspacedata
 sudo chmod 700 ~/subspacedata
 sudo chmod +x subspace*
 ```
 - Bütün Adımlar > https://docs.subspace.network/docs/farming-&-staking/staking/operators
 
+## Operator Güncelleme Kodları
+- İlk koddan sonra ctrl+c ile durdurup öyle devam edin.
+```
+tmux attach -t sub1
+wget https://github.com/subspace/subspace/releases/download/gemini-3g-2024-jan-03/subspace-node-ubuntu-x86_64-skylake-gemini-3g-2024-jan-03
+sudo mv subspace-node-ubuntu-x86_64-skylake-gemini-3g-2024-jan-03 subspace-node
+sudo chmod +x subspace*
+```
 - Başlatma işlemini yaptıktan sonra şu sitede isminizin bir süre sonra görünmesi gerekiyor.
      - https://telemetry.subspace.network/#list/0x418040fc282f5e5ddd432c46d05297636f6f75ce68d66499ff4cbda69ccd180b
 - Son olarak aşağıdaki siteye giderek ve cüzdanımıza izin vererek blok imzaladıkça kazandığınımız ödülü görebiliriz.
