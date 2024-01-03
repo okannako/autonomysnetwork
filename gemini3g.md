@@ -93,8 +93,8 @@ rm -rf subspacefarmer
    - https://www.youtube.com/watch?v=oBiW8F6DoUk&t=654s
 ```
 tmux new-session -t sub1
-wget https://github.com/subspace/subspace/releases/download/gemini-3g-2023-dec-22/subspace-node-ubuntu-x86_64-skylake-gemini-3g-2023-dec-22
-sudo mv subspace-node-ubuntu-x86_64-skylake-gemini-3g-2023-dec-22 subspace-node
+wget https://github.com/subspace/subspace/releases/download/gemini-3g-2024-jan-03/subspace-node-ubuntu-x86_64-skylake-gemini-3g-2024-jan-03
+sudo mv subspace-node-ubuntu-x86_64-skylake-gemini-3g-2024-jan-03 /usr/local/bin/subspace-node
 mkdir subspacedata
 sudo chmod 700 ~/subspacedata
 sudo chmod +x subspace*
