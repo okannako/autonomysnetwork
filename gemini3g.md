@@ -49,7 +49,7 @@ wget -q -O gemini3gp.sh https://raw.githubusercontent.com/okannako/subspacenetwo
 sudo systemctl restart systemd-journald
 ```
 
-## 03 Ocak Core Dumped Güncelleme Kodları
+## 08 Ocak Core Dumped Güncelleme Kodları
 - Öncelikle aşağıdaki kodu giriyoruz. Açılan ekranda ```ExecStart``` satırınına gelip ```--farm-during-initial-plotting ``` bölümünü silip ```ctrl+x``` sonra ```y``` ve ```enter``` a basıp sonraki kodları sırayla girmek yeterli. En son kodu girdikten 5 dakika sonra hem farmer hem de ndoe loglarını kontrol etmeyi unutmayın
 ```
 nano /etc/systemd/system/subspace-farmer.service
@@ -58,8 +58,8 @@ nano /etc/systemd/system/subspace-farmer.service
 sudo systemctl daemon-reload
 sudo systemctl stop subspace-farmer.service
 sudo systemctl stop subspace-node.service
-wget https://github.com/subspace/subspace/releases/download/gemini-3g-2024-jan-03/subspace-farmer-ubuntu-x86_64-v2-gemini-3g-2024-jan-08
-wget https://github.com/subspace/subspace/releases/download/gemini-3g-2024-jan-03/subspace-node-ubuntu-x86_64-v2-gemini-3g-2024-jan-08
+wget https://github.com/subspace/subspace/releases/download/gemini-3g-2024-jan-08/subspace-farmer-ubuntu-x86_64-v2-gemini-3g-2024-jan-08
+wget https://github.com/subspace/subspace/releases/download/gemini-3g-2024-jan-08/subspace-node-ubuntu-x86_64-v2-gemini-3g-2024-jan-08
 sudo mv subspace-node-ubuntu-x86_64-v2-gemini-3g-2024-jan-08 /usr/local/bin/subspace-node
 sudo mv subspace-farmer-ubuntu-x86_64-v2-gemini-3g-2024-jan-08 /usr/local/bin/subspace-farmer
 sudo chmod +x /usr/local/bin/subspace*
