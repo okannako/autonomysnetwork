@@ -28,10 +28,10 @@ nano /etc/systemd/system/subspace-farmer.service
 sudo systemctl daemon-reload
 sudo systemctl stop subspace-farmer.service
 sudo systemctl stop subspace-node.service
-wget https://github.com/subspace/subspace/releases/download/gemini-3g-2024-jan-08/subspace-farmer-ubuntu-x86_64-skylake-gemini-3g-2024-jan-08
-wget https://github.com/subspace/subspace/releases/download/gemini-3g-2024-jan-08/subspace-node-ubuntu-x86_64-skylake-gemini-3g-2024-jan-08
-sudo mv subspace-node-ubuntu-x86_64-skylake-gemini-3g-2024-jan-08 /usr/local/bin/subspace-node
-sudo mv subspace-farmer-ubuntu-x86_64-skylake-gemini-3g-2024-jan-08 /usr/local/bin/subspace-farmer
+wget https://github.com/subspace/subspace/releases/download/gemini-3g-2024-jan-24/subspace-farmer-ubuntu-x86_64-skylake-gemini-3g-2024-jan-24
+wget https://github.com/subspace/subspace/releases/download/gemini-3g-2024-jan-24/subspace-node-ubuntu-x86_64-skylake-gemini-3g-2024-jan-24
+sudo mv subspace-node-ubuntu-x86_64-skylake-gemini-3g-2024-jan-24 /usr/local/bin/subspace-node
+sudo mv subspace-farmer-ubuntu-x86_64-skylake-gemini-3g-2024-jan-24 /usr/local/bin/subspace-farmer
 sudo chmod +x /usr/local/bin/subspace*
 sudo systemctl start subspace-farmer.service
 sudo systemctl start subspace-node.service
@@ -58,10 +58,10 @@ nano /etc/systemd/system/subspace-farmer.service
 sudo systemctl daemon-reload
 sudo systemctl stop subspace-farmer.service
 sudo systemctl stop subspace-node.service
-wget https://github.com/subspace/subspace/releases/download/gemini-3g-2024-jan-08/subspace-farmer-ubuntu-x86_64-v2-gemini-3g-2024-jan-08
-wget https://github.com/subspace/subspace/releases/download/gemini-3g-2024-jan-08/subspace-node-ubuntu-x86_64-v2-gemini-3g-2024-jan-08
-sudo mv subspace-node-ubuntu-x86_64-v2-gemini-3g-2024-jan-08 /usr/local/bin/subspace-node
-sudo mv subspace-farmer-ubuntu-x86_64-v2-gemini-3g-2024-jan-08 /usr/local/bin/subspace-farmer
+wget https://github.com/subspace/subspace/releases/download/gemini-3g-2024-jan-24/subspace-farmer-ubuntu-x86_64-v2-gemini-3g-2024-jan-24
+wget https://github.com/subspace/subspace/releases/download/gemini-3g-2024-jan-24/subspace-node-ubuntu-x86_64-v2-gemini-3g-2024-jan-24
+sudo mv subspace-node-ubuntu-x86_64-v2-gemini-3g-2024-jan-24 /usr/local/bin/subspace-node
+sudo mv subspace-farmer-ubuntu-x86_64-v2-gemini-3g-2024-jan-24 /usr/local/bin/subspace-farmer
 sudo chmod +x /usr/local/bin/subspace*
 sudo systemctl start subspace-farmer.service
 sudo systemctl start subspace-node.service
@@ -93,8 +93,8 @@ rm -rf subspacefarmer
    - https://www.youtube.com/watch?v=oBiW8F6DoUk&t=654s
 ```
 tmux new-session -t sub1
-wget https://github.com/subspace/subspace/releases/download/gemini-3g-2024-jan-08/subspace-node-ubuntu-x86_64-skylake-gemini-3g-2024-jan-08
-sudo mv subspace-node-ubuntu-x86_64-skylake-gemini-3g-2024-jan-08 subspace-node
+wget https://github.com/subspace/subspace/releases/download/gemini-3g-2024-jan-24/subspace-node-ubuntu-x86_64-skylake-gemini-3g-2024-jan-24
+sudo mv subspace-node-ubuntu-x86_64-skylake-gemini-3g-2024-jan-24 subspace-node
 mkdir subspacedata
 sudo chmod 700 ~/subspacedata
 sudo chmod +x subspace*
@@ -105,8 +105,8 @@ sudo chmod +x subspace*
 - İlk koddan sonra ctrl+c ile durdurup öyle devam edin.
 ```
 tmux attach -t sub1
-wget https://github.com/subspace/subspace/releases/download/gemini-3g-2024-jan-08/subspace-node-ubuntu-x86_64-skylake-gemini-3g-2024-jan-08
-sudo mv subspace-node-ubuntu-x86_64-skylake-gemini-3g-2024-jan-08 subspace-node
+wget https://github.com/subspace/subspace/releases/download/gemini-3g-2024-jan-24/subspace-node-ubuntu-x86_64-skylake-gemini-3g-2024-jan-24
+sudo mv subspace-node-ubuntu-x86_64-skylake-gemini-3g-2024-jan-24 subspace-node
 sudo chmod +x subspace*
 ```
 - Başlatma işlemini yaptıktan sonra şu sitede isminizin bir süre sonra görünmesi gerekiyor.
