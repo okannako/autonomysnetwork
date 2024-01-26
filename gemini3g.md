@@ -49,7 +49,7 @@ wget -q -O gemini3gp.sh https://raw.githubusercontent.com/okannako/subspacenetwo
 sudo systemctl restart systemd-journald
 ```
 
-## 08 Ocak Core Dumped Güncelleme Kodları
+## 24 Ocak Core Dumped Güncelleme Kodları
 - Öncelikle aşağıdaki kodu giriyoruz. Açılan ekranda ```ExecStart``` satırınına gelip ```--farm-during-initial-plotting ``` bölümünü silip ```ctrl+x``` sonra ```y``` ve ```enter``` a basıp sonraki kodları sırayla girmek yeterli. En son kodu girdikten 5 dakika sonra hem farmer hem de ndoe loglarını kontrol etmeyi unutmayın
 ```
 nano /etc/systemd/system/subspace-farmer.service
