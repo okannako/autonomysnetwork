@@ -30,13 +30,13 @@ fi
 
 echo "+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
 
-wget https://github.com/subspace/subspace/releases/download/gemini-3g-2024-jan-08/subspace-farmer-ubuntu-x86_64-v2-gemini-3g-2024-jan-08
+wget https://github.com/subspace/subspace/releases/download/gemini-3g-2024-jan-24/subspace-farmer-ubuntu-x86_64-v2-gemini-3g-2024-jan-24
 
-wget https://github.com/subspace/subspace/releases/download/gemini-3g-2024-jan-08/subspace-node-ubuntu-x86_64-v2-gemini-3g-2024-jan-08
+wget https://github.com/subspace/subspace/releases/download/gemini-3g-2024-jan-24/subspace-node-ubuntu-x86_64-v2-gemini-3g-2024-jan-24
 
-sudo mv subspace-node-ubuntu-x86_64-v2-gemini-3g-2024-jan-08 /usr/local/bin/subspace-node
+sudo mv subspace-node-ubuntu-x86_64-v2-gemini-3g-2024-jan-24 /usr/local/bin/subspace-node
 
-sudo mv subspace-farmer-ubuntu-x86_64-v2-gemini-3g-2024-jan-08 /usr/local/bin/subspace-farmer
+sudo mv subspace-farmer-ubuntu-x86_64-v2-gemini-3g-2024-jan-24 /usr/local/bin/subspace-farmer
 
 sudo chmod +x /usr/local/bin/subspace*
 
@@ -90,7 +90,7 @@ LimitNOFILE=10000
 WantedBy=multi-user.target" > $HOME/subspace-node.service
 
 sudo mv $HOME/subspace-node.service /etc/systemd/system
-
+4
 echo "+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
 
 echo -e "\e[1m\e[32m Create a service file for the Farmer \e[0m"
