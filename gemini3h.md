@@ -23,12 +23,12 @@ rm -rf subspacenode
 rm -rf subspacefarmer
 ```
 
--Kurulumu aşağıdaki kodlarla başlatıyoruz ve root kullanıcısında olun.
+- Kurulumu aşağıdaki kodlarla başlatıyoruz ve root kullanıcısında olun.
 ```
 wget -q -O gemini3h.sh https://raw.githubusercontent.com/okannako/subspacenetwork/main/gemini3h.sh && chmod +x gemini3h.sh && sudo /bin/bash gemini3h.sh
 ```
 
--Öncesinde eski bir node olsun ya da olmasın wipe komutunu çalıştırıyoruz.
+- Öncesinde eski bir node olsun ya da olmasın wipe komutunu çalıştırıyoruz.
 ```
 ./pulsar-ubuntu-x86_64-skylake-v0.8.0-alpha wipe
 ```
@@ -44,8 +44,8 @@ wget -q -O gemini3h.sh https://raw.githubusercontent.com/okannako/subspacenetwor
 ```
 ./pulsar-ubuntu-x86_64-skylake-v0.8.0-alpha init
 ```
-   -Burada sırayla bize sorduğu sorulara şu cevapları veriyoruz.
-```1-) y
+- Burada sırayla bize sorduğu sorulara şu cevapları veriyoruz.
+``` 1-) y
     2-) Cüzdan adresimizi soruyor, subspace adresimizi giriyoruz.
     3-) Node isminizi soruyor, istediğiniz bir ismi verebilirsiniz, listede bu isminiz görünecek.
     4-) Enter
@@ -61,7 +61,7 @@ wget -q -O gemini3h.sh https://raw.githubusercontent.com/okannako/subspacenetwor
 - Bundan sonra Tmux ekranını arkaya atmak için ```ctri+b d``` kombinasyonunu kullanabilirsiniz. Tekrar girmek içinse ```tmux attach -t subspace``` kodunu kullanabilirsiniz.
 
 - ## Node Silmek
- -Node silmek için tmux ekranında ```ctrl+c``` yaptıktan sonra aşağıdaki kodları girmeniz yeterli
+ - Node silmek için tmux ekranında ```ctrl+c``` yaptıktan sonra aşağıdaki kodları girmeniz yeterli
 
 ```
 rm -rf ~/.local/share/subspace-cli*
