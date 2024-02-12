@@ -45,14 +45,14 @@ wget -q -O gemini3h.sh https://raw.githubusercontent.com/okannako/subspacenetwor
 ./pulsar-ubuntu-x86_64-skylake-v0.8.0-alpha init
 ```
    -Burada sırayla bize sorduğu sorulara şu cevapları veriyoruz.
-    ```1-) y
+```1-) y
     2-) Cüzdan adresimizi soruyor, subspace adresimizi giriyoruz.
     3-) Node isminizi soruyor, istediğiniz bir ismi verebilirsiniz, listede bu isminiz görünecek.
     4-) Enter
     5-) Enter
     6-) Plot Size sorusunda minimum değer olarak 2GB (Değer girme şekli böyle olmalı yoksa hata alırsınız) girebilirsiniz, maximum yok.
     7-) Enter
-    ```
+```
     
 - Şimdi aşağıdaki kodla da nodenumuzu başlatıyoruz. Bir süre sonra ```Node started successfully!``` uyarısı verecek ve sisteme eşitlenmeye başlayacak.
 ```
