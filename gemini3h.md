@@ -15,6 +15,7 @@
 sudo systemctl stop subspace-node.service
 sudo systemctl stop subspace-farmer.service
 sudo systemctl disable subspace-farmer.service
+sudo systemctl disable subspace-node.service
 rm -rf ~/.local/share/subspace*
 rm -rf /etc/systemd/system/subspaced*
 rm -rf /usr/local/bin/subspace*
