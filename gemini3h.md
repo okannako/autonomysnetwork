@@ -28,49 +28,15 @@ rm -rf subspacefarmer
 wget -q -O gemini3h.sh https://raw.githubusercontent.com/okannako/subspacenetwork/main/gemini3h.sh && chmod +x gemini3h.sh && sudo /bin/bash gemini3h.sh
 ```
 
-- Öncesinde eski bir node olsun ya da olmasın wipe komutunu çalıştırıyoruz.
-```
-./pulsar-ubuntu-x86_64-skylake-v0.8.0-alpha wipe
-```
+- Yukarıdaki kodları sırayla girdikten sonra ilk olarak bir soruyla karşılaşıyoruz eğer önceden kurulumunuz varsa 'n' yazıp ilerliyorsunuz kurulumunuz yoksa ne yazdığınız önemli değil.
+- Daha sonra polkadot cüzdan ile oluşturduğunuz cüzdanınızın adresi sonra node nuza vermek istediğiniz ismi girdikten sonra gelen soruya 'y' diyerek devam ediyoruz ve kurulumu bitiriyoruz ve bize verdiği node kontrol kodlarını bir yere kopyalıyoruzi ilerde kontrol için kullanacağız.
 
-- Yükleme bittikten sonra öncelikle aşağıdaki kodlarla Tmux yükleyip bir tmux sayfası açıyorsunuz. Tmux olmazsa sürekli çalışmaz.
- ```
- cd
- sudo apt install tmux
- tmux new -s subspace
- ```
-
-- Sayfayı açtıktan sonra ilk olarak ayarlarımızı yapmak için alttaki kodu çalıştırıyoruz.
+## Log Komutları
 ```
-./pulsar-ubuntu-x86_64-skylake-v0.8.0-alpha init
+journalctl -u subspace-farmer.service -f
 ```
-- Burada sırayla bize sorduğu sorulara şu cevapları veriyoruz.
-``` 
-    1-) y
-    2-) Cüzdan adresimizi soruyor, subspace adresimizi giriyoruz.
-    3-) Node isminizi soruyor, istediğiniz bir ismi verebilirsiniz, listede bu isminiz görünecek.
-    4-) Enter
-    5-) Enter
-    6-) Plot Size sorusunda minimum değer olarak 2GB (Değer girme şekli böyle olmalı yoksa hata alırsınız) girebilirsiniz, maximum yok.
-    7-) Enter
 ```
-    
-- Şimdi aşağıdaki kodla da nodenumuzu başlatıyoruz. Bir süre sonra ```Node started successfully!``` uyarısı verecek ve sisteme eşitlenmeye başlayacak.
-```
-./pulsar-ubuntu-x86_64-skylake-v0.8.0-alpha farm
-```
-- Bundan sonra Tmux ekranını arkaya atmak için ```ctri+b d``` kombinasyonunu kullanabilirsiniz. Tekrar girmek içinse ```tmux attach -t subspace``` kodunu kullanabilirsiniz.
-
-- ## Node Silmek
- - Node silmek için tmux ekranında ```ctrl+c``` yaptıktan sonra aşağıdaki kodları girmeniz yeterli
-
-```
-rm -rf ~/.local/share/subspace-cli*
-rm -rf /etc/systemd/system/subspaced*
-rm -rf /usr/local/bin/subspace-cli*
-rm -rf /root/.local/share/pulsar/farms
-rm -rf /root/.local/share/pulsar/node
-./pulsar-ubuntu-x86_64-skylake-v0.8.0-alpha wipe
+journalctl -u subspace-node.service -f
 ```
 
 - Ödül toplamaya başladığınızda cüzdan adresinizi siteden aratabilirsiniz.
