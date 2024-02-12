@@ -66,6 +66,8 @@ wget -q -O gemini3h.sh https://raw.githubusercontent.com/okannako/subspacenetwor
 rm -rf ~/.local/share/subspace-cli*
 rm -rf /etc/systemd/system/subspaced*
 rm -rf /usr/local/bin/subspace-cli*
+rm -rf /root/.local/share/pulsar/farms
+rm -rf /root/.local/share/pulsar/node
 ./pulsar-ubuntu-x86_64-skylake-v0.8.0-alpha wipe
 ```
 
