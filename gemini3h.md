@@ -45,7 +45,8 @@ wget -q -O gemini3h.sh https://raw.githubusercontent.com/okannako/subspacenetwor
 ./pulsar-ubuntu-x86_64-skylake-v0.8.0-alpha init
 ```
 - Burada sırayla bize sorduğu sorulara şu cevapları veriyoruz.
-``` 1-) y
+``` 
+    1-) y
     2-) Cüzdan adresimizi soruyor, subspace adresimizi giriyoruz.
     3-) Node isminizi soruyor, istediğiniz bir ismi verebilirsiniz, listede bu isminiz görünecek.
     4-) Enter
