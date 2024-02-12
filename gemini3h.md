@@ -1,7 +1,7 @@
 ## Tavsiye Edilen Sistem Gereksinimleri
 - CPU: 4+ ÇEKİRDEK
 - RAM: 8+ GB
-- SSD: Kodda gireceğiniz boyut dışında +70GB yer olmalı. (Kodda Plot Size:10GB girilecekse HDD'nin en az 80GB olması öneriyorum.)
+- SSD: Kodda gireceğiniz boyut dışında +90GB yer olmalı. (Kodda Plot Size:10GB girilecekse HDD'nin en az 100GB olması öneriyorum.)
 - İşletim Sistemi: Ubuntu 20.04LTS
 
 ## Kurulum Adımları ve Kodları
