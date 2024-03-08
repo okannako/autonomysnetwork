@@ -36,10 +36,10 @@ wget -q -O gemini3h.sh https://raw.githubusercontent.com/okannako/subspacenetwor
 ```
 sudo systemctl stop subspace-farmer.service
 sudo systemctl stop subspace-node.service
-wget https://github.com/subspace/subspace/releases/download/gemini-3h-2024-feb-19/subspace-farmer-ubuntu-x86_64-skylake-gemini-3h-2024-feb-19
-wget https://github.com/subspace/subspace/releases/download/gemini-3h-2024-feb-19/subspace-node-ubuntu-x86_64-skylake-gemini-3h-2024-feb-19
-sudo mv subspace-node-ubuntu-x86_64-skylake-gemini-3h-2024-feb-19 /usr/local/bin/subspace-node
-sudo mv subspace-farmer-ubuntu-x86_64-skylake-gemini-3h-2024-feb-19 /usr/local/bin/subspace-farmer
+wget https://github.com/subspace/subspace/releases/download/gemini-3h-2024-mar-08/subspace-farmer-ubuntu-x86_64-skylake-gemini-3h-2024-mar-08
+wget https://github.com/subspace/subspace/releases/download/gemini-3h-2024-mar-08/subspace-node-ubuntu-x86_64-skylake-gemini-3h-2024-mar-08
+sudo mv subspace-node-ubuntu-x86_64-skylake-gemini-3h-2024-mar-08 /usr/local/bin/subspace-node
+sudo mv subspace-farmer-ubuntu-x86_64-skylake-gemini-3h-2024-mar-08 /usr/local/bin/subspace-farmer
 sudo chmod +x /usr/local/bin/subspace*
 sudo systemctl start subspace-farmer.service
 sudo systemctl start subspace-node.service
