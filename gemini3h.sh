@@ -30,13 +30,13 @@ fi
 
 echo "+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
 
-wget https://github.com/subspace/subspace/releases/download/gemini-3h-2024-mar-11/subspace-farmer-ubuntu-x86_64-skylake-gemini-3h-2024-mar-11
+wget https://github.com/subspace/subspace/releases/download/gemini-3h-2024-mar-14/subspace-farmer-ubuntu-x86_64-skylake-gemini-3h-2024-mar-14
 
-wget https://github.com/subspace/subspace/releases/download/gemini-3h-2024-mar-11/subspace-node-ubuntu-x86_64-skylake-gemini-3h-2024-mar-11
+wget https://github.com/subspace/subspace/releases/download/gemini-3h-2024-mar-14/subspace-node-ubuntu-x86_64-skylake-gemini-3h-2024-mar-14
 
-sudo mv subspace-node-ubuntu-x86_64-skylake-gemini-3h-2024-mar-11 /usr/local/bin/subspace-node
+sudo mv subspace-node-ubuntu-x86_64-skylake-gemini-3h-2024-mar-14 /usr/local/bin/subspace-node
 
-sudo mv subspace-farmer-ubuntu-x86_64-skylake-gemini-3h-2024-mar-11 /usr/local/bin/subspace-farmer
+sudo mv subspace-farmer-ubuntu-x86_64-skylake-gemini-3h-2024-mar-14 /usr/local/bin/subspace-farmer
 
 sudo chmod +x /usr/local/bin/subspace*
 
