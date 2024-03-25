@@ -31,7 +31,7 @@ wget -q -O gemini3h.sh https://raw.githubusercontent.com/okannako/subspacenetwor
 - Yukarıdaki kodları sırayla girdikten sonra ilk olarak bir soruyla karşılaşıyoruz eğer önceden kurulumunuz varsa 'n' yazıp ilerliyorsunuz kurulumunuz yoksa ne yazdığınız önemli değil.
 - Daha sonra polkadot cüzdan ile oluşturduğunuz cüzdanınızın adresi sonra node nuza vermek istediğiniz ismi girdikten sonra gelen soruya 'y' diyerek devam ediyoruz ve kurulumu bitiriyoruz ve bize verdiği node kontrol kodlarını bir yere kopyalıyoruzi ilerde kontrol için kullanacağız.
 
-## 22 Mart Güncelleme Kodları
+## 25 Mart Güncelleme Kodları
 
 ```
 sudo systemctl stop subspace-farmer.service
