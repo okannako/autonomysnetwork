@@ -31,15 +31,15 @@ wget -q -O gemini3h.sh https://raw.githubusercontent.com/okannako/subspacenetwor
 - Yukarıdaki kodları sırayla girdikten sonra ilk olarak bir soruyla karşılaşıyoruz eğer önceden kurulumunuz varsa 'n' yazıp ilerliyorsunuz kurulumunuz yoksa ne yazdığınız önemli değil.
 - Daha sonra polkadot cüzdan ile oluşturduğunuz cüzdanınızın adresi sonra node nuza vermek istediğiniz ismi girdikten sonra gelen soruya 'y' diyerek devam ediyoruz ve kurulumu bitiriyoruz ve bize verdiği node kontrol kodlarını bir yere kopyalıyoruzi ilerde kontrol için kullanacağız.
 
-## 06 Mayıs Güncelleme Kodları
+## 15 Mayıs Güncelleme Kodları
 
 ```
 sudo systemctl stop subspace-farmer.service
 sudo systemctl stop subspace-node.service
-wget https://github.com/subspace/subspace/releases/download/gemini-3h-2024-may-06/subspace-farmer-ubuntu-x86_64-skylake-gemini-3h-2024-may-06
-wget https://github.com/subspace/subspace/releases/download/gemini-3h-2024-may-06/subspace-node-ubuntu-x86_64-skylake-gemini-3h-2024-may-06
-sudo mv subspace-node-ubuntu-x86_64-skylake-gemini-3h-2024-may-06 /usr/local/bin/subspace-node
-sudo mv subspace-farmer-ubuntu-x86_64-skylake-gemini-3h-2024-may-06 /usr/local/bin/subspace-farmer
+wget https://github.com/subspace/subspace/releases/download/gemini-3h-2024-may-15/subspace-farmer-ubuntu-x86_64-skylake-gemini-3h-2024-may-15
+wget https://github.com/subspace/subspace/releases/download/gemini-3h-2024-may-15/subspace-node-ubuntu-x86_64-skylake-gemini-3h-2024-may-15
+sudo mv subspace-node-ubuntu-x86_64-skylake-gemini-3h-2024-may-15 /usr/local/bin/subspace-node
+sudo mv subspace-farmer-ubuntu-x86_64-skylake-gemini-3h-2024-may-15 /usr/local/bin/subspace-farmer
 sudo chmod +x /usr/local/bin/subspace*
 sudo systemctl start subspace-farmer.service
 sudo systemctl start subspace-node.service
