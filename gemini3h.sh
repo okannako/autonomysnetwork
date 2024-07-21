@@ -30,17 +30,17 @@ fi
 
 echo "+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
 
-wget https://github.com/subspace/subspace/releases/download/gemini-3h-2024-jun-18/subspace-farmer-ubuntu-x86_64-skylake-gemini-3h-2024-jun-18
+wget https://github.com/subspace/subspace/releases/download/gemini-3h-2024-jul-16/subspace-farmer-ubuntu-x86_64-skylake-gemini-3h-2024-jul-16
 
-wget https://github.com/subspace/subspace/releases/download/gemini-3h-2024-jun-18/subspace-node-ubuntu-x86_64-skylake-gemini-3h-2024-jun-18
+wget https://github.com/subspace/subspace/releases/download/gemini-3h-2024-jul-16/subspace-node-ubuntu-x86_64-skylake-gemini-3h-2024-jul-16
 
-sudo mv subspace-node-ubuntu-x86_64-skylake-gemini-3h-2024-jun-18 /usr/local/bin/subspace-node
+sudo mv subspace-node-ubuntu-x86_64-skylake-gemini-3h-2024-jul-16 /usr/local/bin/subspace-node
 
-sudo mv subspace-farmer-ubuntu-x86_64-skylake-gemini-3h-2024-jun-18 /usr/local/bin/subspace-farmer
-
-sudo chmod +x /usr/local/bin/subspace*
+sudo mv subspace-farmer-ubuntu-x86_64-skylake-gemini-3h-2024-jul-16 /usr/local/bin/subspace-farmer
 
 sudo chmod +x /usr/local/bin/subspace*
+sudo systemctl start subspace-farmer.service
+sudo systemctl start subspace-node.service
 
 mkdir subspacenode
 sudo chmod 700 ~/subspacenode
