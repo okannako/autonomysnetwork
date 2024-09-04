@@ -34,9 +34,9 @@ wget https://github.com/autonomys/subspace/releases/download/gemini-3h-2024-sep-
 
 wget https://github.com/autonomys/subspace/releases/download/gemini-3h-2024-sep-03/subspace-node-ubuntu-x86_64-skylake-gemini-3h-2024-sep-03
 
-sudo mv subspace-farmer-ubuntu-x86_64-skylake-gemini-3h-2024-sep-03 /usr/local/bin/subspace-node
+sudo mv subspace-node-ubuntu-x86_64-skylake-gemini-3h-2024-sep-03 /usr/local/bin/subspace-node
 
-sudo mv subspace-node-ubuntu-x86_64-skylake-gemini-3h-2024-sep-03 /usr/local/bin/subspace-farmer
+sudo mv subspace-farmer-ubuntu-x86_64-skylake-gemini-3h-2024-sep-03 /usr/local/bin/subspace-farmer
 
 sudo chmod +x /usr/local/bin/subspace*
 sudo systemctl start subspace-farmer.service
