@@ -25,7 +25,7 @@ rm -rf subspacefarmer
 
 - Kurulumu aşağıdaki kodlarla başlatıyoruz ve root kullanıcısında olun.
 ```
-wget -q -O gemini3h.sh https://raw.githubusercontent.com/okannako/subspacenetwork/main/gemini3h.sh && chmod +x gemini3h.sh && sudo /bin/bash gemini3h.sh
+wget -q -O gemini3h.sh https://raw.githubusercontent.com/okannako/autonomysnetwork/main/gemini3h.sh && chmod +x gemini3h.sh && sudo /bin/bash gemini3h.sh
 ```
 
 - Yukarıdaki kodları sırayla girdikten sonra ilk olarak bir soruyla karşılaşıyoruz eğer önceden kurulumunuz varsa 'n' yazıp ilerliyorsunuz kurulumunuz yoksa ne yazdığınız önemli değil.
