@@ -30,13 +30,10 @@ fi
 
 echo "+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
 
-wget https://github.com/autonomys/subspace/releases/download/gemini-3h-2024-sep-17/subspace-farmer-ubuntu-x86_64-skylake-gemini-3h-2024-sep-17
-
-wget https://github.com/autonomys/subspace/releases/download/gemini-3h-2024-sep-17/subspace-node-ubuntu-x86_64-skylake-gemini-3h-2024-sep-17
-
-sudo mv subspace-node-ubuntu-x86_64-skylake-gemini-3h-2024-sep-17 /usr/local/bin/subspace-node
-
-sudo mv subspace-farmer-ubuntu-x86_64-skylake-gemini-3h-2024-sep-17 /usr/local/bin/subspace-farmer
+wget https://github.com/autonomys/subspace/releases/download/taurus-2024-nov-01/subspace-farmer-ubuntu-x86_64-skylake-taurus-2024-nov-01
+wget https://github.com/autonomys/subspace/releases/download/taurus-2024-nov-01/subspace-node-ubuntu-x86_64-skylake-taurus-2024-nov-01
+sudo mv subspace-node-ubuntu-x86_64-skylake-taurus-2024-nov-01 /usr/local/bin/subspace-node
+sudo mv subspace-farmer-ubuntu-x86_64-skylake-taurus-2024-nov-01 /usr/local/bin/subspace-farmer
 
 sudo chmod +x /usr/local/bin/subspace*
 sudo systemctl start subspace-farmer.service
@@ -83,7 +80,7 @@ Description=Subspace Node
 
 [Service]
 User=$USER
-ExecStart=subspace-node run  --chain gemini-3h --base-path /root/subspacenode --farmer --name '$NODE_NAME'
+ExecStart=subspace-node run  --chain taurus --base-path /root/subspacenode --farmer --name '$NODE_NAME'
 Restart=always
 RestartSec=10
 LimitNOFILE=10000
