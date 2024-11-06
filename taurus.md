@@ -2,7 +2,7 @@
 - CPU: 4+ ÇEKİRDEK
 - RAM: 8+ GB
 - SSD: Kodda gireceğiniz boyut dışında 120GB yer olmalı.
-- İşletim Sistemi: Ubuntu 20.04LTS
+- İşletim Sistemi: Ubuntu 22.04LTS
 
 ## Kurulum Adımları ve Kodları
 - Daha önce testlere katıldıysanız aynı cüzdanı kullanın. Eğer ilk defa katılıyorsanız 2. adımdan cüzdan oluşturun.
