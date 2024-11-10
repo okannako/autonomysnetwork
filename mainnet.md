@@ -25,7 +25,7 @@ rm -rf subspacefarmer
 
 - Kurulumu aşağıdaki kodlarla başlatıyoruz ve root kullanıcısında olun.
 ```
-wget -q -O taurus.sh https://raw.githubusercontent.com/okannako/autonomysnetwork/main/taurus.sh && chmod +x taurus.sh && sudo /bin/bash taurus.sh
+wget -q -O mainnet.sh https://raw.githubusercontent.com/okannako/autonomysnetwork/main/mainnet.sh && chmod +x mainnet.sh && sudo /bin/bash mainnet.sh
 ```
 
 - Yukarıdaki kodları sırayla girdikten sonra ilk olarak bir soruyla karşılaşıyoruz eğer önceden kurulumunuz varsa 'n' yazıp ilerliyorsunuz kurulumunuz yoksa ne yazdığınız önemli değil.
