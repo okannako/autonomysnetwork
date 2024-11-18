@@ -39,6 +39,19 @@ journalctl -u subspace-farmer.service -f
 journalctl -u subspace-node.service -f
 ```
 
+## 14 Kasım Güncellemesi
+```
+sudo systemctl stop subspace-farmer.service
+sudo systemctl stop subspace-node.service
+wget https://github.com/autonomys/subspace/releases/download/mainnet-2024-nov-13-2/subspace-farmer-ubuntu-x86_64-skylake-mainnet-2024-nov-13-2
+wget https://github.com/autonomys/subspace/releases/download/mainnet-2024-nov-13-2/subspace-node-ubuntu-x86_64-skylake-mainnet-2024-nov-13-2
+sudo mv subspace-node-ubuntu-x86_64-skylake-mainnet-2024-nov-13-2 /usr/local/bin/subspace-node
+sudo mv subspace-farmer-ubuntu-x86_64-skylake-mainnet-2024-nov-13-2 /usr/local/bin/subspace-farmer
+sudo chmod +x /usr/local/bin/subspace*
+sudo systemctl start subspace-farmer.service
+sudo systemctl start subspace-node.service
+```
+
 ## Core Dump Hatası Alanlar
 - Bazı versiyonlu makinelerde Core Dump hatası veriyor. Aşağıdaki tek kodda yukarıdaki versiyondan daha farklı mainnet versiyonu mevcut. Bu kodu çalıştırarak deneyebilirsiniz
 ```
