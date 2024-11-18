@@ -39,6 +39,12 @@ journalctl -u subspace-farmer.service -f
 journalctl -u subspace-node.service -f
 ```
 
+## Core Dump Hatası Alanlar
+- Bazı versiyonlu makinelerde Core Dump hatası veriyor. Aşağıdaki tek kodda yukarıdaki versiyondan daha farklı mainnet versiyonu mevcut. Bu kodu çalıştırarak deneyebilirsiniz
+```
+wget -q -O mainnet2.sh https://raw.githubusercontent.com/okannako/autonomysnetwork/main/mainnet2.sh && chmod +x mainnet2.sh && sudo /bin/bash mainnet2.sh
+```
+
 - Başlatma işlemini yaptıktan sonra şu sitede isminizin bir süre sonra görünmesi gerekiyor.
      - https://telemetry.subspace.network/#list/0x66455a580aabff303720aa83adbe6c44502922251c03ba73686d5245da9e21bd
 - Son olarak aşağıdaki siteye giderek ve cüzdanımıza izin vererek blok imzaladıkça kazandığınımız ödülü görebiliriz.
