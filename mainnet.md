@@ -58,6 +58,18 @@ sudo systemctl start subspace-node.service
 wget -q -O mainnet2.sh https://raw.githubusercontent.com/okannako/autonomysnetwork/main/mainnet2.sh && chmod +x mainnet2.sh && sudo /bin/bash mainnet2.sh
 ```
 
+## Core Dump 27 Kasım Güncellemesi
+```
+sudo systemctl stop subspace-farmer.service
+sudo systemctl stop subspace-node.service
+wget https://github.com/autonomys/subspace/releases/download/mainnet-2024-nov-27/subspace-farmer-ubuntu-x86_64-v2-mainnet-2024-nov-27
+wget https://github.com/autonomys/subspace/releases/download/mainnet-2024-nov-27/subspace-node-ubuntu-x86_64-v2-mainnet-2024-nov-27
+sudo mv subspace-node-ubuntu-x86_64-v2-mainnet-2024-nov-27 /usr/local/bin/subspace-node
+sudo mv subspace-farmer-ubuntu-x86_64-v2-mainnet-2024-nov-27 /usr/local/bin/subspace-farmer
+sudo systemctl start subspace-farmer.service
+sudo systemctl start subspace-node.service
+```
+
 - Başlatma işlemini yaptıktan sonra şu sitede isminizin bir süre sonra görünmesi gerekiyor.
      - https://telemetry.subspace.network/#list/0x66455a580aabff303720aa83adbe6c44502922251c03ba73686d5245da9e21bd
 - Son olarak aşağıdaki siteye giderek ve cüzdanımıza izin vererek blok imzaladıkça kazandığınımız ödülü görebiliriz.
