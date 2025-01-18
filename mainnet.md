@@ -39,7 +39,7 @@ journalctl -u subspace-farmer.service -f
 journalctl -u subspace-node.service -f
 ```
 
-## 3 Ocak Güncellemesi
+## 14 Ocak Güncellemesi
 ```
 sudo systemctl stop subspace-farmer.service
 sudo systemctl stop subspace-node.service
@@ -58,7 +58,7 @@ sudo systemctl start subspace-node.service
 wget -q -O mainnet2.sh https://raw.githubusercontent.com/okannako/autonomysnetwork/main/mainnet2.sh && chmod +x mainnet2.sh && sudo /bin/bash mainnet2.sh
 ```
 
-## Core Dump 3 Ocak Güncellemesi
+## Core Dump 14 Ocak Güncellemesi
 ```
 sudo systemctl stop subspace-farmer.service
 sudo systemctl stop subspace-node.service
