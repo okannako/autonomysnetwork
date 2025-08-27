@@ -30,10 +30,10 @@ fi
 
 echo "+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
 
-wget https://github.com/autonomys/subspace/releases/download/mainnet-2025-jun-06/subspace-farmer-ubuntu-x86_64-skylake-mainnet-2025-jun-06
-wget https://github.com/autonomys/subspace/releases/download/mainnet-2025-jun-06/subspace-node-ubuntu-x86_64-skylake-mainnet-2025-jun-06
-sudo mv subspace-node-ubuntu-x86_64-skylake-mainnet-2025-jun-06 /usr/local/bin/subspace-node
-sudo mv subspace-farmer-ubuntu-x86_64-skylake-mainnet-2025-jun-06 /usr/local/bin/subspace-farmer
+wget https://github.com/autonomys/subspace/releases/download/mainnet-2025-jun-06/subspace-farmer-ubuntu-x86_64-skylake-mainnet-2025-aug-20
+wget https://github.com/autonomys/subspace/releases/download/mainnet-2025-jun-06/subspace-node-ubuntu-x86_64-skylake-mainnet-2025-aug-20
+sudo mv subspace-node-ubuntu-x86_64-skylake-mainnet-2025-aug-20 /usr/local/bin/subspace-node
+sudo mv subspace-farmer-ubuntu-x86_64-skylake-mainnet-2025-aug-20 /usr/local/bin/subspace-farmer
 
 sudo chmod +x /usr/local/bin/subspace*
 sudo systemctl start subspace-farmer.service
