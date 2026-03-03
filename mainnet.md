@@ -39,7 +39,7 @@ journalctl -u subspace-farmer.service -f
 journalctl -u subspace-node.service -f
 ```
 
-## 2 Aralık Güncellemesi
+## 28 Şubat Güncellemesi
 ```
 sudo systemctl stop subspace-farmer.service
 sudo systemctl stop subspace-node.service
