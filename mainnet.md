@@ -39,14 +39,14 @@ journalctl -u subspace-farmer.service -f
 journalctl -u subspace-node.service -f
 ```
 
-## 28 Şubat Güncellemesi
+## 14 Haziran Güncellemesi
 ```
 sudo systemctl stop subspace-farmer.service
 sudo systemctl stop subspace-node.service
-wget https://github.com/autonomys/subspace/releases/download/mainnet-2026-feb-28/subspace-farmer-ubuntu-x86_64-skylake-mainnet-2026-feb-28
-wget https://github.com/autonomys/subspace/releases/download/mainnet-2026-feb-28/subspace-node-ubuntu-x86_64-skylake-mainnet-2026-feb-28
-sudo mv subspace-node-ubuntu-x86_64-skylake-mainnet-2026-feb-28 /usr/local/bin/subspace-node
-sudo mv subspace-farmer-ubuntu-x86_64-skylake-mainnet-2026-feb-28 /usr/local/bin/subspace-farmer
+wget https://github.com/autonomys/subspace/releases/download/mainnet-2026-jun-14/subspace-farmer-ubuntu-x86_64-skylake-mainnet-2026-jun-14
+wget https://github.com/autonomys/subspace/releases/download/mainnet-2026-jun-14/subspace-node-ubuntu-x86_64-skylake-mainnet-2026-jun-14
+sudo mv subspace-node-ubuntu-x86_64-skylake-mainnet-2026-jun-14 /usr/local/bin/subspace-node
+sudo mv subspace-farmer-ubuntu-x86_64-skylake-mainnet-2026-jun-14 /usr/local/bin/subspace-farmer
 sudo chmod +x /usr/local/bin/subspace*
 sudo systemctl start subspace-farmer.service
 sudo systemctl start subspace-node.service
@@ -58,14 +58,14 @@ sudo systemctl start subspace-node.service
 wget -q -O mainnet2.sh https://raw.githubusercontent.com/okannako/autonomysnetwork/main/mainnet2.sh && chmod +x mainnet2.sh && sudo /bin/bash mainnet2.sh
 ```
 
-## Core Dump 2 Aralık Güncellemesi
+## Core Dump 14 Haziran Güncellemesi
 ```
 sudo systemctl stop subspace-farmer.service
 sudo systemctl stop subspace-node.service
-wget https://github.com/autonomys/subspace/releases/download/mainnet-2026-feb-28/subspace-farmer-ubuntu-x86_64-v2-mainnet-2026-feb-28
-wget https://github.com/autonomys/subspace/releases/download/mainnet-2026-feb-28/subspace-node-ubuntu-x86_64-v2-mainnet-2026-feb-28
-sudo mv subspace-node-ubuntu-x86_64-v2-mainnet-2026-feb-28 /usr/local/bin/subspace-node
-sudo mv subspace-farmer-ubuntu-x86_64-v2-mainnet-2026-feb-28 /usr/local/bin/subspace-farmer
+wget https://github.com/autonomys/subspace/releases/download/mainnet-2026-jun-14/subspace-farmer-ubuntu-x86_64-v2-mainnet-2026-jun-14
+wget https://github.com/autonomys/subspace/releases/download/mainnet-2026-jun-14/subspace-node-ubuntu-x86_64-v2-mainnet-2026-jun-14
+sudo mv subspace-node-ubuntu-x86_64-v2-mainnet-2026-jun-14 /usr/local/bin/subspace-node
+sudo mv subspace-farmer-ubuntu-x86_64-v2-mainnet-2026-jun-14 /usr/local/bin/subspace-farmer
 sudo systemctl start subspace-farmer.service
 sudo systemctl start subspace-node.service
 ```
